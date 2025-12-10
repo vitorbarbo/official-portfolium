@@ -1,0 +1,177 @@
+{
+  "HERO": {
+    "NAME": "Vitor Duarte Barbosa",
+    "TITLE": "高级 Angular 软件工程师",
+    "LOCATION": "坎皮纳斯, 圣保罗 - 巴西",
+    "DESCRIPTION": "7+ 年为全球公司构建可扩展的 Angular 应用程序",
+    "STATS": {
+      "YEARS_EXPERIENCE": "年经验",
+      "USERS_SERVED": "服务用户",
+      "PROJECTS_DELIVERED": "交付项目"
+    },
+    "KNOW_ABOUT_ME": "了解更多"
+  },
+  "ABOUT": {
+    "TABS": {
+      "ABOUT_ME": "关于我",
+      "AVAILABILITY": "可用性",
+      "PROJECTS": "我的公共项目",
+      "CONTACT": "联系方式"
+    },
+    "TITLE": "高级 Angular 软件工程师",
+    "SUMMARY": "我是一名高级前端工程师，拥有 7 年以上的 Angular（现代版本和 AngularJS）和 TypeScript 经验，为巴西、中国、阿根廷和哥伦比亚的公司构建可扩展、响应式的应用程序。",
+    "KEY_ACHIEVEMENTS": "主要成就",
+    "ACHIEVEMENTS": {
+      "ENHANCED_CODE_EFFICIENCY": {
+        "TITLE": "提高代码效率",
+        "DESCRIPTION": "通过优化代码和重构，将应用程序效率提高了 60%。"
+      },
+      "FAST_TIMELY_DELIVERY": {
+        "TITLE": "快速及时交付",
+        "DESCRIPTION": "提前交付了 95% 的项目任务和错误修复。"
+      },
+      "TOP_DEVELOPER": {
+        "TITLE": "面向客户应用的首席开发人员",
+        "DESCRIPTION": "20+ 个面向客户的 Web 应用程序的首席开发人员，每月用户超过 5K。"
+      },
+      "GLOBAL_STAKEHOLDERS": {
+        "TITLE": "全球利益相关者演示",
+        "DESCRIPTION": "向执行董事和主要利益相关者展示功能，确保技术一致性和战略业务目标。"
+      }
+    },
+    "AVAILABILITY": {
+      "AVAILABLE": "可接受机会",
+      "BUSY": "目前忙碌",
+      "MESSAGE": "我乐于接受新的挑战和令人兴奋的项目。让我们一起构建一些令人惊叹的东西！"
+    },
+    "PROJECTS": {
+      "TITLE": "我的公共项目",
+      "LEARNED_TITLE": "我学到了什么",
+      "VIEW_ON_GITHUB": "在 GitHub 上查看",
+      "PREVIOUS": "上一个项目",
+      "NEXT": "下一个项目",
+      "GO_TO_PROJECT": "转到项目",
+      "ONTOP_PROTOTYPE": {
+        "TITLE": "OnTop 原型",
+        "DATE": "2022年7月 - 2022年9月",
+        "DESCRIPTION": "使用 Angular、TypeScript 和 SCSS 开发的大型 IT 项目原型。在三个核心环境中构建可重用组件和模块化结构，直接支持 15K+ 月活跃用户。",
+        "LEARNED": "高级 Angular 组件架构、TypeScript 最佳实践、SCSS 模块化以及构建可扩展的前端应用程序。获得了跨环境开发和性能优化的经验。"
+      },
+      "CRUD_PACTO_SOLUCOES": {
+        "TITLE": "CRUD Pacto Soluções",
+        "DATE": "2022年",
+        "DESCRIPTION": "使用 Angular 和 TypeScript 构建的全栈 CRUD 应用程序。实现了 RESTful API 集成、表单验证和响应式 UI 设计。使用现代 Web 技术交付了完整的数据管理解决方案。",
+        "LEARNED": "RESTful API 集成模式、Angular 表单和验证、TypeScript 类型安全以及构建完整的 CRUD 操作。增强了数据管理和用户界面设计技能。"
+      },
+      "CRUD_FISCON": {
+        "TITLE": "CRUD Fiscon",
+        "DATE": "2022年",
+        "DESCRIPTION": "使用 Angular 和 TypeScript 开发的企业 CRUD 应用程序。专注于强大的数据管理、API 集成和干净的代码架构。为业务运营交付了可扩展的解决方案。",
+        "LEARNED": "企业应用程序架构、复杂数据管理、API 设计模式以及 TypeScript 高级功能。提高了对业务逻辑实现和代码组织的理解。"
+      },
+      "ELEMENTS": {
+        "TITLE": "Elements",
+        "DATE": "2021年",
+        "DESCRIPTION": "展示现代 Web 开发基础的 HTML/CSS/JavaScript 项目。使用原生 JavaScript 和 CSS3 构建了交互式 UI 组件和响应式布局。展示了核心前端开发技能。",
+        "LEARNED": "HTML5 语义结构、CSS3 高级功能（包括 flexbox 和 grid）、原生 JavaScript DOM 操作以及响应式设计原则。加强了核心 Web 技术的基础。"
+      }
+    },
+    "CONTACT": {
+      "TITLE": "让我们联系"
+    }
+  },
+  "EXPERIENCE": {
+    "TITLE": "专业经验",
+    "TECHNOLOGIES_LABEL": "技术：",
+    "COMPANIES": {
+      "QIMA": {
+        "ROLE": "软件工程师",
+        "PERIOD": "2023年3月 - 2025年12月",
+        "LOCATION": "中国 · 远程",
+        "ACHIEVEMENTS": [
+          "在使用 AngularJS 和现代 Angular 的高调全球项目中担任主要贡献者，开发支持 5K+ 月活跃用户的可扩展架构。",
+          "设计和优化组件架构，将可维护性提高 35%，同时确保跨平台的技术卓越。",
+          "交付与关键 API 的复杂集成，自动化工作流程并在国际范围内提高运营速度。",
+          "在双周会议中直接向执行董事展示新功能和项目结果，在高压环境中推动战略一致性。"
+        ]
+      },
+      "BAIRESDEV": {
+        "ROLE": "Angular 开发人员",
+        "PERIOD": "2022年11月 - 2023年3月",
+        "LOCATION": "布宜诺斯艾利斯 - 阿根廷 · 远程",
+        "ACHIEVEMENTS": [
+          "在大型 Angular 项目中构建可重用组件并优化 UI/UX 性能，将加载时间缩短 28%。",
+          "与国际团队合作集成 REST API，确保为服务 20K+ 日活跃用户的系统提供可扩展和一致的交付。",
+          "实施清洁架构和持续交付管道，将部署周期加速 40% 并最小化生产错误。"
+        ]
+      },
+      "ONTOP": {
+        "ROLE": "Angular 开发人员",
+        "PERIOD": "2022年7月 - 2022年9月",
+        "LOCATION": "哥伦比亚 · 远程",
+        "ACHIEVEMENTS": [
+          "在三个核心环境的 Angular + SCSS + TypeScript 大型 IT 项目中做出贡献，直接支持 15K+ 月活跃用户。",
+          "设计可重用组件和强大的模块化结构，将新功能开发时间缩短 25%。",
+          "通过 REST 交付响应式布局和后端集成，确保跨设备的兼容性和高性能。",
+          "执行集成测试和错误修复，将生产错误率降低 30%。"
+        ]
+      },
+      "HAUSZ": {
+        "ROLE": "前端开发人员",
+        "PERIOD": "2021年5月 - 2022年7月",
+        "LOCATION": "坎皮纳斯, 圣保罗 - 巴西",
+        "ACHIEVEMENTS": [
+          "从零开始单独构建货运集成平台，每月处理 5K+ 货物，处理需求收集、前端架构、响应式 UI 以及用于费率计算和跟踪的 API 集成。",
+          "优化应用程序性能，将加载时间缩短 40% 并提高运营效率。",
+          "使用 HTML、CSS、JavaScript 和 Angular 开发语义化和响应式登录页面。",
+          "重构遗留代码，改进文档，并领导每周工作流程优化会议，将团队生产力提高 40%。"
+        ]
+      },
+      "PDCA": {
+        "ROLE": "IT 支持 / 开发人员",
+        "PERIOD": "2018年8月 - 2021年5月",
+        "LOCATION": "坎皮纳斯, 圣保罗 - 巴西",
+        "ACHIEVEMENTS": [
+          "使用 HTML、CSS 和 JavaScript 交付企业网站和响应式登录页面。",
+          "管理 GitHub 存储库，实施优化，将页面加载时间减少 25% 并增强用户体验。",
+          "提供持续的技术支持，确保跨浏览器和设备的一致品牌和功能。"
+        ]
+      }
+    }
+  },
+  "SKILLS": {
+    "TITLE": "技能和工具",
+    "YEARS": "年",
+    "FILTER": {
+      "ALL": "全部",
+      "EXPERIENCE": "按经验",
+      "CATEGORY": "按类别"
+    },
+    "CATEGORIES": {
+      "FRAMEWORK": "框架",
+      "LANGUAGE": "语言",
+      "LIBRARY": "库",
+      "TOOL": "工具",
+      "TESTING": "测试",
+      "CI_CD": "CI/CD",
+      "DESIGN": "设计"
+    }
+  },
+  "LANGUAGES": {
+    "TITLE": "语言和熟练程度",
+    "PROFICIENCY": {
+      "NATIVE": "母语",
+      "PROFICIENT": "熟练",
+      "INTERMEDIATE": "中级",
+      "ADVANCED": "高级",
+      "EXPERT": "专家",
+      "BASIC": "基础"
+    },
+    "NAMES": {
+      "PORTUGUESE": "葡萄牙语",
+      "ENGLISH": "英语",
+      "SPANISH": "西班牙语"
+    }
+  }
+}
+

@@ -1,0 +1,177 @@
+{
+  "HERO": {
+    "NAME": "Vitor Duarte Barbosa",
+    "TITLE": "Engenheiro de Software Angular Sênior",
+    "LOCATION": "Campinas, São Paulo - Brasil",
+    "DESCRIPTION": "7+ anos construindo aplicações Angular escaláveis para empresas globais",
+    "STATS": {
+      "YEARS_EXPERIENCE": "Anos de Experiência",
+      "USERS_SERVED": "Usuários Atendidos",
+      "PROJECTS_DELIVERED": "Projetos Entregues"
+    },
+    "KNOW_ABOUT_ME": "Saber mais"
+  },
+  "ABOUT": {
+    "TABS": {
+      "ABOUT_ME": "Sobre Mim",
+      "AVAILABILITY": "Disponibilidade",
+      "PROJECTS": "Meus Projetos Públicos",
+      "CONTACT": "Contato"
+    },
+    "TITLE": "Engenheiro de Software Angular Sênior",
+    "SUMMARY": "Sou um Engenheiro Front-End Sênior com mais de 7 anos de experiência em Angular (versões modernas e AngularJS) e TypeScript, construindo aplicações escaláveis e responsivas para empresas no Brasil, China, Argentina e Colômbia.",
+    "KEY_ACHIEVEMENTS": "Principais Conquistas",
+    "ACHIEVEMENTS": {
+      "ENHANCED_CODE_EFFICIENCY": {
+        "TITLE": "Eficiência de Código Aprimorada",
+        "DESCRIPTION": "Aumentei a eficiência da aplicação em 60% através de código otimizado e refatoração."
+      },
+      "FAST_TIMELY_DELIVERY": {
+        "TITLE": "Entrega Rápida e Pontual",
+        "DESCRIPTION": "Entreguei 95% das tarefas do projeto e correções de bugs antes do prazo."
+      },
+      "TOP_DEVELOPER": {
+        "TITLE": "Desenvolvedor Top em Apps para Clientes",
+        "DESCRIPTION": "Desenvolvedor principal de 20+ aplicativos web para clientes com mais de 5K usuários mensais."
+      },
+      "GLOBAL_STAKEHOLDERS": {
+        "TITLE": "Apresentação para Stakeholders Globais",
+        "DESCRIPTION": "Apresentei funcionalidades para diretores executivos e principais stakeholders, garantindo alinhamento técnico e objetivos estratégicos de negócios."
+      }
+    },
+    "AVAILABILITY": {
+      "AVAILABLE": "Disponível para Oportunidades",
+      "BUSY": "Atualmente Ocupado",
+      "MESSAGE": "Estou aberto a novos desafios e projetos emocionantes. Vamos construir algo incrível juntos!"
+    },
+    "PROJECTS": {
+      "TITLE": "Meus Projetos Públicos",
+      "LEARNED_TITLE": "O Que Aprendi",
+      "VIEW_ON_GITHUB": "Ver no GitHub",
+      "PREVIOUS": "Projeto anterior",
+      "NEXT": "Próximo projeto",
+      "GO_TO_PROJECT": "Ir para projeto",
+      "ONTOP_PROTOTYPE": {
+        "TITLE": "OnTop Prototype",
+        "DATE": "Jul 2022 - Set 2022",
+        "DESCRIPTION": "Desenvolvimento de protótipo para um grande projeto de TI usando Angular, TypeScript e SCSS. Construí componentes reutilizáveis e estruturas modulares em três ambientes principais, suportando diretamente mais de 15K usuários ativos mensais.",
+        "LEARNED": "Arquitetura avançada de componentes Angular, melhores práticas de TypeScript, modularização SCSS e construção de aplicações front-end escaláveis. Ganhei experiência em desenvolvimento cross-environment e otimização de performance."
+      },
+      "CRUD_PACTO_SOLUCOES": {
+        "TITLE": "CRUD Pacto Soluções",
+        "DATE": "2022",
+        "DESCRIPTION": "Aplicação CRUD full-stack construída com Angular e TypeScript. Implementei integração com API RESTful, validação de formulários e design de UI responsivo. Entreguei uma solução completa para gerenciamento de dados com tecnologias web modernas.",
+        "LEARNED": "Padrões de integração de API RESTful, formulários e validação Angular, type safety do TypeScript e construção de operações CRUD completas. Aprimorei habilidades em gerenciamento de dados e design de interface de usuário."
+      },
+      "CRUD_FISCON": {
+        "TITLE": "CRUD Fiscon",
+        "DATE": "2022",
+        "DESCRIPTION": "Aplicação CRUD empresarial desenvolvida com Angular e TypeScript. Focada em gerenciamento robusto de dados, integração de API e arquitetura de código limpo. Entreguei solução escalável para operações de negócios.",
+        "LEARNED": "Arquitetura de aplicações empresariais, gerenciamento complexo de dados, padrões de design de API e recursos avançados do TypeScript. Melhorei a compreensão da implementação de lógica de negócios e organização de código."
+      },
+      "ELEMENTS": {
+        "TITLE": "Elements",
+        "DATE": "2021",
+        "DESCRIPTION": "Projeto HTML/CSS/JavaScript demonstrando fundamentos do desenvolvimento web moderno. Construí componentes de UI interativos e layouts responsivos usando JavaScript vanilla e CSS3. Demonstrei habilidades fundamentais de desenvolvimento front-end.",
+        "LEARNED": "Estrutura semântica HTML5, recursos avançados do CSS3 incluindo flexbox e grid, manipulação de DOM com JavaScript vanilla e princípios de design responsivo. Fortaleci a base em tecnologias web fundamentais."
+      }
+    },
+    "CONTACT": {
+      "TITLE": "Vamos Conectar"
+    }
+  },
+  "EXPERIENCE": {
+    "TITLE": "Experiência Profissional",
+    "TECHNOLOGIES_LABEL": "Tecnologias:",
+    "COMPANIES": {
+      "QIMA": {
+        "ROLE": "Engenheiro de Software",
+        "PERIOD": "Mar 2023 - Dez 2025",
+        "LOCATION": "China · Remoto",
+        "ACHIEVEMENTS": [
+          "Atuei como principal contribuidor em projetos globais de alto perfil usando AngularJS e Angular moderno, desenvolvendo arquiteturas escaláveis que suportam mais de 5K usuários ativos mensais.",
+          "Projetei e otimizei arquiteturas de componentes, aumentando a manutenibilidade e reduzindo retrabalho em 35%, garantindo excelência técnica em todas as plataformas.",
+          "Entreguei integrações complexas com APIs críticas, automatizando fluxos de trabalho e melhorando a velocidade operacional em escala internacional.",
+          "Apresentei novas funcionalidades e resultados de projetos diretamente para diretores executivos em sessões quinzenais, promovendo alinhamento estratégico em ambientes de alta pressão."
+        ]
+      },
+      "BAIRESDEV": {
+        "ROLE": "Desenvolvedor Angular",
+        "PERIOD": "Nov 2022 - Mar 2023",
+        "LOCATION": "Buenos Aires - Argentina · Remoto",
+        "ACHIEVEMENTS": [
+          "Construí componentes reutilizáveis e otimizei o desempenho de UI/UX em projetos Angular de grande escala, reduzindo o tempo de carregamento em 28%.",
+          "Colaborei com equipes internacionais para integrar APIs REST, garantindo entrega escalável e consistente para sistemas que atendem mais de 20K usuários diários.",
+          "Implementei arquitetura limpa e pipelines de entrega contínua, acelerando ciclos de implantação em 40% e minimizando erros de produção."
+        ]
+      },
+      "ONTOP": {
+        "ROLE": "Desenvolvedor Angular",
+        "PERIOD": "Jul 2022 - Set 2022",
+        "LOCATION": "Colômbia · Remoto",
+        "ACHIEVEMENTS": [
+          "Contribuí para um grande projeto de TI em Angular + SCSS + TypeScript em três ambientes principais, suportando diretamente mais de 15K usuários ativos mensais.",
+          "Projetei componentes reutilizáveis e estruturas modulares robustas, reduzindo o tempo de desenvolvimento de novas funcionalidades em 25%.",
+          "Entreguei layouts responsivos e integrações de backend via REST, garantindo compatibilidade e alto desempenho em todos os dispositivos.",
+          "Realizei testes integrados e correção de bugs, reduzindo as taxas de erro de produção em 30%."
+        ]
+      },
+      "HAUSZ": {
+        "ROLE": "Desenvolvedor Front End",
+        "PERIOD": "Mai 2021 - Jul 2022",
+        "LOCATION": "Campinas, São Paulo - Brasil",
+        "ACHIEVEMENTS": [
+          "Construí sozinho do zero uma plataforma de integração de frete processando mais de 5K envios/mês, lidando com levantamento de requisitos, arquitetura front-end, UI responsiva e integrações de API para cálculo e rastreamento de taxas.",
+          "Otimizei o desempenho da aplicação, reduzindo o tempo de carregamento em 40% e aumentando a eficiência operacional.",
+          "Desenvolvi landing pages semânticas e responsivas usando HTML, CSS, JavaScript e Angular.",
+          "Refatorei código legado, melhorei a documentação e conduzi sessões semanais de otimização de fluxo de trabalho, aumentando a produtividade da equipe em 40%."
+        ]
+      },
+      "PDCA": {
+        "ROLE": "Suporte de TI / Desenvolvedor",
+        "PERIOD": "Ago 2018 - Mai 2021",
+        "LOCATION": "Campinas, São Paulo - Brasil",
+        "ACHIEVEMENTS": [
+          "Entreguei sites corporativos e landing pages responsivas usando HTML, CSS e JavaScript.",
+          "Gerenciei repositórios GitHub, implementando otimizações que reduziram o tempo de carregamento de páginas em 25% e melhoraram a experiência do usuário.",
+          "Forneci suporte técnico contínuo, garantindo branding consistente e funcionalidade em todos os navegadores e dispositivos."
+        ]
+      }
+    }
+  },
+  "SKILLS": {
+    "TITLE": "Habilidades e Ferramentas",
+    "YEARS": "Anos",
+    "FILTER": {
+      "ALL": "Todos",
+      "EXPERIENCE": "Por Experiência",
+      "CATEGORY": "Por Categoria"
+    },
+    "CATEGORIES": {
+      "FRAMEWORK": "Framework",
+      "LANGUAGE": "Linguagem",
+      "LIBRARY": "Biblioteca",
+      "TOOL": "Ferramenta",
+      "TESTING": "Testes",
+      "CI_CD": "CI/CD",
+      "DESIGN": "Design"
+    }
+  },
+  "LANGUAGES": {
+    "TITLE": "Idiomas e Proficiência",
+    "PROFICIENCY": {
+      "NATIVE": "Nativo",
+      "PROFICIENT": "Proficiente",
+      "INTERMEDIATE": "Intermediário",
+      "ADVANCED": "Avançado",
+      "EXPERT": "Especialista",
+      "BASIC": "Básico"
+    },
+    "NAMES": {
+      "PORTUGUESE": "Português",
+      "ENGLISH": "Inglês",
+      "SPANISH": "Espanhol"
+    }
+  }
+}
+

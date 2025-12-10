@@ -1,0 +1,15 @@
+{
+  "/api/github": {
+    "target": "https://api.github.com",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/api/github": ""
+    },
+    "headers": {
+      "Accept": "application/vnd.github.v3+json"
+    }
+  }
+}
+

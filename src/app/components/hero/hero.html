@@ -1,0 +1,36 @@
+<section class="hero">
+  <div class="hero__content">
+    <div class="hero__text">
+      <h1 class="hero__title">
+        <span class="hero__title-line">{{ name }}</span>
+        <span class="hero__title-line hero__title-line--highlight">
+          <span class="hero__typed-text">{{ typedText() }}</span>
+          <span class="hero__cursor" [class.hero__cursor--hidden]="!showCursor()">|</span>
+        </span>
+      </h1>
+      <p class="hero__subtitle">
+        <span class="hero__location-icon">📍</span>
+        {{ location }}
+      </p>
+      <p class="hero__description">{{ 'HERO.DESCRIPTION' | translate }}</p>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-number">7+</span>
+          <span class="hero__stat-label">{{ 'HERO.STATS.YEARS_EXPERIENCE' | translate }}</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number">50K+</span>
+          <span class="hero__stat-label">{{ 'HERO.STATS.USERS_SERVED' | translate }}</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number">100+</span>
+          <span class="hero__stat-label">{{ 'HERO.STATS.PROJECTS_DELIVERED' | translate }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="hero__scroll-indicator" (click)="scrollToAbout()" [attr.aria-label]="'HERO.KNOW_ABOUT_ME' | translate">
+    <div class="hero__scroll-arrow"></div>
+    <span class="hero__scroll-text">{{ 'HERO.KNOW_ABOUT_ME' | translate }}</span>
+  </button>
+</section>

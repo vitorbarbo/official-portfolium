@@ -1,0 +1,177 @@
+{
+  "HERO": {
+    "NAME": "Vitor Duarte Barbosa",
+    "TITLE": "Senior Angular Software Engineer",
+    "LOCATION": "Campinas, São Paulo - Brazil",
+    "DESCRIPTION": "7+ years building scalable Angular applications for global companies",
+    "STATS": {
+      "YEARS_EXPERIENCE": "Years Experience",
+      "USERS_SERVED": "Users Served",
+      "PROJECTS_DELIVERED": "Projects Delivered"
+    },
+    "KNOW_ABOUT_ME": "Know more"
+  },
+  "ABOUT": {
+    "TABS": {
+      "ABOUT_ME": "About Me",
+      "AVAILABILITY": "Availability",
+      "PROJECTS": "My Public Projects",
+      "CONTACT": "Contact"
+    },
+    "TITLE": "Senior Angular Software Engineer",
+    "SUMMARY": "I'm a Senior Front-End Engineer with 7+ years' experience in Angular (modern versions & AngularJS) and TypeScript, building scalable, responsive applications for companies in Brazil, China, Argentina, and Colombia.",
+    "KEY_ACHIEVEMENTS": "Key Achievements",
+    "ACHIEVEMENTS": {
+      "ENHANCED_CODE_EFFICIENCY": {
+        "TITLE": "Enhanced Code Efficiency",
+        "DESCRIPTION": "Increased application efficiency by 60% through optimized code and refactoring."
+      },
+      "FAST_TIMELY_DELIVERY": {
+        "TITLE": "Fast Timely Delivery",
+        "DESCRIPTION": "Delivered 95% of project tasks and bug fixes ahead of time."
+      },
+      "TOP_DEVELOPER": {
+        "TITLE": "Top Developer on Client-Facing Apps",
+        "DESCRIPTION": "Top developer of 20+ client web apps with over 5K monthly users."
+      },
+      "GLOBAL_STAKEHOLDERS": {
+        "TITLE": "Global Stakeholders Presentation",
+        "DESCRIPTION": "Showcased features to executive directors and key stakeholders, ensuring technical alignment and strategic business goals."
+      }
+    },
+    "AVAILABILITY": {
+      "AVAILABLE": "Available for Opportunities",
+      "BUSY": "Currently Busy",
+      "MESSAGE": "I'm open to new challenges and exciting projects. Let's build something amazing together!"
+    },
+    "PROJECTS": {
+      "TITLE": "My Public Projects",
+      "LEARNED_TITLE": "What I Learned",
+      "VIEW_ON_GITHUB": "View on GitHub",
+      "PREVIOUS": "Previous project",
+      "NEXT": "Next project",
+      "GO_TO_PROJECT": "Go to project",
+      "ONTOP_PROTOTYPE": {
+        "TITLE": "OnTop Prototype",
+        "DATE": "Jul 2022 - Sep 2022",
+        "DESCRIPTION": "Prototype development for a major IT project using Angular, TypeScript, and SCSS. Built reusable components and modular structures across three core environments, directly supporting 15K+ monthly active users.",
+        "LEARNED": "Advanced Angular component architecture, TypeScript best practices, SCSS modularization, and building scalable front-end applications. Gained experience in cross-environment development and performance optimization."
+      },
+      "CRUD_PACTO_SOLUCOES": {
+        "TITLE": "CRUD Pacto Soluções",
+        "DATE": "2022",
+        "DESCRIPTION": "Full-stack CRUD application built with Angular and TypeScript. Implemented RESTful API integration, form validation, and responsive UI design. Delivered a complete solution for data management with modern web technologies.",
+        "LEARNED": "RESTful API integration patterns, Angular forms and validation, TypeScript type safety, and building complete CRUD operations. Enhanced skills in data management and user interface design."
+      },
+      "CRUD_FISCON": {
+        "TITLE": "CRUD Fiscon",
+        "DATE": "2022",
+        "DESCRIPTION": "Enterprise CRUD application developed with Angular and TypeScript. Focused on robust data management, API integration, and clean code architecture. Delivered scalable solution for business operations.",
+        "LEARNED": "Enterprise application architecture, complex data management, API design patterns, and TypeScript advanced features. Improved understanding of business logic implementation and code organization."
+      },
+      "ELEMENTS": {
+        "TITLE": "Elements",
+        "DATE": "2021",
+        "DESCRIPTION": "HTML/CSS/JavaScript project showcasing modern web development fundamentals. Built interactive UI components and responsive layouts using vanilla JavaScript and CSS3. Demonstrated core front-end development skills.",
+        "LEARNED": "HTML5 semantic structure, CSS3 advanced features including flexbox and grid, vanilla JavaScript DOM manipulation, and responsive design principles. Strengthened foundation in core web technologies."
+      }
+    },
+    "CONTACT": {
+      "TITLE": "Let's Connect"
+    }
+  },
+  "EXPERIENCE": {
+    "TITLE": "Professional Experience",
+    "TECHNOLOGIES_LABEL": "Technologies:",
+    "COMPANIES": {
+      "QIMA": {
+        "ROLE": "Software Engineer",
+        "PERIOD": "Mar 2023 - Dec 2025",
+        "LOCATION": "China · Remote",
+        "ACHIEVEMENTS": [
+          "Served as a principal contributor in high-profile global projects using AngularJS and modern Angular, engineering scalable architectures supporting 5K+ monthly active users.",
+          "Designed and optimized component architectures, increasing maintainability and reducing rework by 35% while ensuring technical excellence across platforms.",
+          "Delivered complex integrations with mission-critical APIs, automating workflows and enhancing operational speed at an international scale.",
+          "Presented new features and project results directly to executive directors in bi-weekly sessions, driving strategic alignment in high-pressure environments."
+        ]
+      },
+      "BAIRESDEV": {
+        "ROLE": "Angular Developer",
+        "PERIOD": "Nov 2022 - Mar 2023",
+        "LOCATION": "Buenos Aires - Argentina · Remote",
+        "ACHIEVEMENTS": [
+          "Built reusable components and optimized UI/UX performance in high-scale Angular projects, cutting load time by 28%.",
+          "Collaborated with international teams to integrate REST APIs, ensuring scalable and consistent delivery for systems serving 20K+ daily users.",
+          "Enforced clean architecture and continuous delivery pipelines, accelerating deployment cycles by 40% and minimizing production errors."
+        ]
+      },
+      "ONTOP": {
+        "ROLE": "Angular Developer",
+        "PERIOD": "Jul 2022 - Set 2022",
+        "LOCATION": "Colombia · Remote",
+        "ACHIEVEMENTS": [
+          "Contributed to a major IT project in Angular + SCSS + TypeScript across three core environments, directly supporting 15K+ monthly active users.",
+          "Designed reusable components and robust modular structures, cutting new feature development time by 25%.",
+          "Delivered responsive layouts and backend integrations via REST, ensuring compatibility and high performance across devices.",
+          "Performed integrated testing and bug fixing, reducing production error rates by 30%."
+        ]
+      },
+      "HAUSZ": {
+        "ROLE": "Front End Developer",
+        "PERIOD": "Mai 2021 - Jul 2022",
+        "LOCATION": "Campinas, São Paulo - Brazil",
+        "ACHIEVEMENTS": [
+          "Solely built from scratch a freight integration platform processing 5K+ shipments/month, handling requirements gathering, front-end architecture, responsive UI, and API integrations for rate calculation and tracking.",
+          "Optimized application performance, cutting load time by 40% and boosting operational efficiency.",
+          "Developed semantic and responsive landing pages using HTML, CSS, JavaScript, and Angular.",
+          "Refactored legacy code, improved documentation, and led weekly workflow optimization sessions, increasing team productivity by 40%."
+        ]
+      },
+      "PDCA": {
+        "ROLE": "IT Support / Developer",
+        "PERIOD": "Ago 2018 - Mai 2021",
+        "LOCATION": "Campinas, São Paulo - Brazil",
+        "ACHIEVEMENTS": [
+          "Delivered corporate websites and responsive landing pages using HTML, CSS, and JavaScript.",
+          "Managed GitHub repositories, implementing optimizations that reduced page load time by 25% and enhanced user experience.",
+          "Provided ongoing technical support, ensuring consistent branding and functionality across browsers and devices."
+        ]
+      }
+    }
+  },
+  "SKILLS": {
+    "TITLE": "Skills & Tools",
+    "YEARS": "Years",
+    "FILTER": {
+      "ALL": "All",
+      "EXPERIENCE": "By Experience",
+      "CATEGORY": "By Category"
+    },
+    "CATEGORIES": {
+      "FRAMEWORK": "Framework",
+      "LANGUAGE": "Language",
+      "LIBRARY": "Library",
+      "TOOL": "Tool",
+      "TESTING": "Testing",
+      "CI_CD": "CI/CD",
+      "DESIGN": "Design"
+    }
+  },
+  "LANGUAGES": {
+    "TITLE": "Languages & Proficiency",
+    "PROFICIENCY": {
+      "NATIVE": "Native",
+      "PROFICIENT": "Proficient",
+      "INTERMEDIATE": "Intermediate",
+      "ADVANCED": "Advanced",
+      "EXPERT": "Expert",
+      "BASIC": "Basic"
+    },
+    "NAMES": {
+      "PORTUGUESE": "Portuguese",
+      "ENGLISH": "English",
+      "SPANISH": "Spanish"
+    }
+  }
+}
+

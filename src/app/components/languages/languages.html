@@ -1,0 +1,26 @@
+<section class="languages">
+  <div class="languages__container">
+    <h2 class="languages__title">{{ 'LANGUAGES.TITLE' | translate }}</h2>
+    <div class="languages__list">
+      @for (language of languages; track trackByLanguageName($index, language)) {
+        <div class="languages__item">
+          <div class="languages__header">
+            <div class="languages__info">
+              <span class="languages__icon">{{ language.icon }}</span>
+              <span class="languages__name">{{ 'LANGUAGES.NAMES.' + language.name | translate }}</span>
+            </div>
+            <span class="languages__proficiency">{{ 'LANGUAGES.PROFICIENCY.' + language.proficiency | translate }}</span>
+          </div>
+          <div class="languages__progress-bar">
+            <div
+              class="languages__progress-fill"
+              [style.width.%]="language.level"
+              [style.animation-delay.ms]="$index * 100"
+            ></div>
+          </div>
+          <div class="languages__percentage">{{ language.level }}%</div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

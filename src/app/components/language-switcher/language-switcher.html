@@ -1,0 +1,30 @@
+<div class="language-switcher">
+  <button
+    class="language-switcher__trigger"
+    (click)="toggleDropdown()"
+    [attr.aria-expanded]="isOpen()"
+    aria-label="Select language"
+  >
+    <span class="language-switcher__globe-icon">🌐</span>
+  </button>
+
+  @if (isOpen()) {
+    <div class="language-switcher__dropdown">
+      @for (language of languages; track language.code) {
+        <button
+          class="language-switcher__item"
+          [class.language-switcher__item--active]="isActive(language.code)"
+          (click)="switchLanguage(language.code)"
+          [attr.aria-label]="language.name"
+        >
+          <span class="language-switcher__flag">{{ language.flag }}</span>
+          <span class="language-switcher__name">{{ language.name }}</span>
+          @if (isActive(language.code)) {
+            <span class="language-switcher__check">✓</span>
+          }
+        </button>
+      }
+    </div>
+  }
+</div>
+

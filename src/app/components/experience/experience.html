@@ -1,0 +1,31 @@
+<section class="experience">
+  <div class="experience__container">
+    <h2 class="experience__title">{{ 'EXPERIENCE.TITLE' | translate }}</h2>
+    <div class="experience__timeline">
+      @for (companyKey of companyKeys; track companyKey; let i = $index) {
+        <div class="experience__item">
+          <div class="experience__timeline-dot"></div>
+          <div class="experience__content">
+            <div class="experience__header">
+              <h3 class="experience__role">{{ 'EXPERIENCE.COMPANIES.' + companyKey + '.ROLE' | translate }}</h3>
+              <a [href]="experiences[i].companyUrl" target="_blank" class="experience__company">{{ experiences[i].company }}</a>
+              <span class="experience__period">{{ 'EXPERIENCE.COMPANIES.' + companyKey + '.PERIOD' | translate }}</span>
+            </div>
+            <p class="experience__location">{{ 'EXPERIENCE.COMPANIES.' + companyKey + '.LOCATION' | translate }}</p>
+            <ul class="experience__achievements">
+              @for (j of getAchievementsIndices(companyKey); track j) {
+                <li class="experience__achievement">{{ getAchievementTranslation(companyKey, j) }}</li>
+              }
+            </ul>
+            <div class="experience__technologies">
+              <span class="experience__technologies-label">{{ 'EXPERIENCE.TECHNOLOGIES_LABEL' | translate }}</span>
+              @for (tech of experiences[i].technologies; track trackByTech($index, tech)) {
+                <span class="experience__tech-badge">{{ tech }}</span>
+              }
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

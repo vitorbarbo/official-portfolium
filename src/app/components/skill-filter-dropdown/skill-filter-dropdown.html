@@ -1,0 +1,43 @@
+<div class="skill-filter-dropdown">
+  <button class="skill-filter-dropdown__button" (click)="toggleDropdown()" aria-label="Filter skills">
+    <svg class="skill-filter-dropdown__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z" stroke="#3b82f6" stroke-width="2" fill="none" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  @if (isOpen()) {
+    <div class="skill-filter-dropdown__menu">
+      <button
+        class="skill-filter-dropdown__option"
+        [class.skill-filter-dropdown__option--active]="isActive('none')"
+        (click)="selectFilter('none')"
+      >
+        <span>{{ 'SKILLS.FILTER.ALL' | translate }}</span>
+        @if (isActive('none')) {
+          <span class="skill-filter-dropdown__checkmark">✓</span>
+        }
+      </button>
+      <button
+        class="skill-filter-dropdown__option"
+        [class.skill-filter-dropdown__option--active]="isActive('experience')"
+        (click)="selectFilter('experience')"
+      >
+        <span>{{ 'SKILLS.FILTER.EXPERIENCE' | translate }}</span>
+        @if (isActive('experience')) {
+          <span class="skill-filter-dropdown__checkmark">✓</span>
+        }
+      </button>
+      <button
+        class="skill-filter-dropdown__option"
+        [class.skill-filter-dropdown__option--active]="isActive('category')"
+        (click)="selectFilter('category')"
+      >
+        <span>{{ 'SKILLS.FILTER.CATEGORY' | translate }}</span>
+        @if (isActive('category')) {
+          <span class="skill-filter-dropdown__checkmark">✓</span>
+        }
+      </button>
+    </div>
+  }
+</div>
+

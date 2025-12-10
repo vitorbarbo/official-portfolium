@@ -1,0 +1,170 @@
+<section class="about" id="about-section">
+  <div class="about__container">
+    <div class="about__image-wrapper">
+      <div class="about__image-placeholder">
+        <img [src]="profileImagePath" alt="Vitor Duarte Barbosa" class="about__image">
+      </div>
+    </div>
+    <div class="about__content">
+      <div class="about__tabs">
+        @for (tab of tabs; track tab.id) {
+          <button
+            class="about__tab"
+            [class.about__tab--active]="activeTab() === tab.id"
+            (click)="setActiveTab(tab.id)"
+          >
+            {{ tab.labelKey | translate }}
+          </button>
+        }
+      </div>
+      <div class="about__tab-content">
+        <ng-container [ngSwitch]="activeTab()">
+          <ng-container *ngSwitchCase="'about'">
+            <ng-container *ngTemplateOutlet="aboutTabTemplate"></ng-container>
+          </ng-container>
+          <ng-container *ngSwitchCase="'availability'">
+            <ng-container *ngTemplateOutlet="availabilityTabTemplate"></ng-container>
+          </ng-container>
+          <ng-container *ngSwitchCase="'projects'">
+            <ng-container *ngTemplateOutlet="projectsTabTemplate"></ng-container>
+          </ng-container>
+          <ng-container *ngSwitchCase="'contact'">
+            <ng-container *ngTemplateOutlet="contactTabTemplate"></ng-container>
+          </ng-container>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Tab Template -->
+  <ng-template #aboutTabTemplate>
+    <div class="about__panel">
+      <h2 class="about__title">{{ 'ABOUT.TITLE' | translate }}</h2>
+      <p class="about__text">{{ 'ABOUT.SUMMARY' | translate }}</p>
+      <div class="about__achievements">
+        <h3 class="about__achievements-title">{{ 'ABOUT.KEY_ACHIEVEMENTS' | translate }}</h3>
+        <div class="about__achievements-grid">
+          @for (key of achievementKeys; track key; let i = $index) {
+            <div class="about__achievement-card" [style.animation-delay.ms]="i * 100">
+              <div class="about__achievement-icon">
+                <span class="about__achievement-icon-bg"></span>
+                <span class="about__achievement-icon-symbol">{{ getAchievementIcon(i) }}</span>
+              </div>
+              <div class="about__achievement-content">
+                <h4 class="about__achievement-title">{{ 'ABOUT.ACHIEVEMENTS.' + key + '.TITLE' | translate }}</h4>
+                <p class="about__achievement-description">{{ 'ABOUT.ACHIEVEMENTS.' + key + '.DESCRIPTION' | translate }}</p>
+              </div>
+              <div class="about__achievement-glow"></div>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+  <!-- Availability Tab Template -->
+  <ng-template #availabilityTabTemplate>
+    <div class="about__panel">
+      <div class="about__availability">
+        <div class="about__status" [class.about__status--available]="isAvailable()">
+          <span class="about__status-dot"></span>
+          <span class="about__status-text">{{ isAvailable() ? ('ABOUT.AVAILABILITY.AVAILABLE' | translate) : ('ABOUT.AVAILABILITY.BUSY' | translate) }}</span>
+        </div>
+        <p class="about__text">{{ 'ABOUT.AVAILABILITY.MESSAGE' | translate }}</p>
+      </div>
+    </div>
+  </ng-template>
+
+  <!-- Projects Tab Template -->
+  <ng-template #projectsTabTemplate>
+    <div class="about__panel">
+      <h2 class="about__title">{{ 'ABOUT.PROJECTS.TITLE' | translate }}</h2>
+      <div class="about__projects-carousel">
+        <button
+          class="about__carousel-button about__carousel-button--prev"
+          (click)="goToPreviousProject()"
+          [disabled]="!canGoPrevious()"
+          [attr.aria-label]="'ABOUT.PROJECTS.PREVIOUS' | translate"
+        >
+          <span class="about__carousel-arrow">←</span>
+        </button>
+        
+        <div class="about__carousel-container">
+          @if (getCurrentProject(); as project) {
+            <div 
+              class="about__project-card"
+              [class.about__project-card--slide-left]="slideDirection() === 'left'"
+              [class.about__project-card--slide-right]="slideDirection() === 'right'"
+            >
+              <div class="about__project-header">
+                <h3 class="about__project-title">{{ project.title }}</h3>
+                <span class="about__project-date">{{ project.date }}</span>
+              </div>
+              <p class="about__project-description">{{ project.description }}</p>
+              @if (project.learned) {
+                <div class="about__project-learned">
+                  <h4 class="about__project-learned-title">{{ 'ABOUT.PROJECTS.LEARNED_TITLE' | translate }}</h4>
+                  <p class="about__project-learned-text">{{ project.learned }}</p>
+                </div>
+              }
+              <div class="about__project-footer">
+                <div class="about__project-technologies">
+                    <span class="about__project-tech-badge">{{ project.technologies }}</span>
+                </div>
+                <a
+                  [href]="project.githubUrl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="about__project-link"
+                >
+                  <span class="about__project-link-icon">🐙</span>
+                  <span>{{ 'ABOUT.PROJECTS.VIEW_ON_GITHUB' | translate }}</span>
+                </a>
+              </div>
+            </div>
+          }
+        </div>
+
+        <button
+          class="about__carousel-button about__carousel-button--next"
+          (click)="goToNextProject()"
+          [disabled]="!canGoNext()"
+          [attr.aria-label]="'ABOUT.PROJECTS.NEXT' | translate"
+        >
+          <span class="about__carousel-arrow">→</span>
+        </button>
+      </div>
+      
+        <div class="about__carousel-indicators">
+          @for (project of projects(); track project.id; let i = $index) {
+            <button
+              class="about__carousel-indicator"
+              [class.about__carousel-indicator--active]="currentProjectIndex() === i"
+              (click)="goToProject(i)"
+              [attr.aria-label]="'ABOUT.PROJECTS.GO_TO_PROJECT' | translate"
+            ></button>
+          }
+        </div>
+    </div>
+  </ng-template>
+
+  <!-- Contact Tab Template -->
+  <ng-template #contactTabTemplate>
+    <div class="about__panel">
+      <h2 class="about__title">{{ 'ABOUT.CONTACT.TITLE' | translate }}</h2>
+      <div class="about__contact-info">
+        @for (link of contactLinks; track link.href) {
+          <a
+            [href]="link.href"
+            class="about__contact-link"
+            [target]="link.external ? '_blank' : null"
+            [rel]="link.external ? 'noopener noreferrer' : null"
+          >
+            <span class="about__contact-icon">{{ link.icon }}</span>
+            <span>{{ link.label }}</span>
+          </a>
+        }
+      </div>
+    </div>
+  </ng-template>
+</section>
