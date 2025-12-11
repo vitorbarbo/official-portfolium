@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, signal, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, OnDestroy, signal, ChangeDetectionStrategy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
@@ -11,41 +11,37 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HeroComponent implements OnInit, OnDestroy {
-  protected readonly name = 'Vitor Duarte Barbosa';
-  protected readonly location = 'Campinas, São Paulo - Brazil';
-  protected readonly email = 'vitordb91@gmail.com';
+  readonly name = 'Vitor Duarte Barbosa';
+  readonly location = 'Campinas, São Paulo - Brazil';
+  readonly email = 'vitordb91@gmail.com';
+  readonly titleKey = 'HERO.TITLE';
 
-  protected readonly typedText = signal('');
-  protected readonly showCursor = signal(true);
-  protected readonly isTyping = signal(true);
-  protected readonly titleKey = 'HERO.TITLE';
+  readonly typedText = signal('');
+  readonly showCursor = signal(true);
+  readonly isTyping = signal(true);
 
   private fullText = '';
   private typingIndex = 0;
   private typingInterval: ReturnType<typeof setInterval> | null = null;
   private cursorInterval: ReturnType<typeof setInterval> | null = null;
-
   private isAnimating = false;
   private restartTimeout: ReturnType<typeof setTimeout> | null = null;
+  private langChangeSubscription: any;
 
-  constructor(
-    private readonly cdr: ChangeDetectorRef,
-    private readonly translateService: TranslateService
-  ) {
-    this.translateService.onLangChange.subscribe(() => {
+  constructor(private readonly translateService: TranslateService) {
+    this.langChangeSubscription = this.translateService.onLangChange.subscribe(() => {
       this.updateFullText();
     });
   }
 
   private updateFullText(): void {
     this.stopAllAnimations();
-    this.translateService.get('HERO.TITLE').subscribe(text => {
-      this.fullText = text;
-      this.typingIndex = 0;
-      this.typedText.set('');
-      this.isAnimating = false;
-      this.startTyping();
-    });
+    const text = this.translateService.instant('HERO.TITLE');
+    this.fullText = text;
+    this.typingIndex = 0;
+    this.typedText.set('');
+    this.isAnimating = false;
+    this.startTyping();
   }
 
   private stopAllAnimations(): void {
@@ -61,11 +57,9 @@ export class HeroComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    this.translateService.get('HERO.TITLE').subscribe(text => {
-      this.fullText = text;
-      this.startTyping();
-      this.toggleCursor();
-    });
+    this.fullText = this.translateService.instant('HERO.TITLE');
+    this.startTyping();
+    this.toggleCursor();
   }
 
   private startTyping(): void {
@@ -107,6 +101,9 @@ export class HeroComponent implements OnInit, OnDestroy {
       clearInterval(this.cursorInterval);
       this.cursorInterval = null;
     }
+    if (this.langChangeSubscription) {
+      this.langChangeSubscription.unsubscribe();
+    }
   }
 
   private toggleCursor(): void {
@@ -115,20 +112,10 @@ export class HeroComponent implements OnInit, OnDestroy {
     }, 530);
   }
 
-  protected scrollToAbout(): void {
+  scrollToAbout(): void {
     const targetElement = document.getElementById('about-section');
-    
     if (targetElement) {
-      const navHeight = 80;
-      
       targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      
-      setTimeout(() => {
-        window.scrollBy({
-          top: -navHeight,
-          behavior: 'smooth'
-        });
-      }, 100);
     }
   }
 }

@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy, ChangeDetectorRef, HostListener, signal } from '@angular/core';
+import { Component, ChangeDetectionStrategy, HostListener, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
@@ -17,59 +17,43 @@ export interface Language {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LanguageSwitcherComponent {
-  protected readonly languages: Language[] = [
+  readonly languages: Language[] = [
     { code: 'en', name: 'English', flag: '🇺🇸' },
     { code: 'pt', name: 'Português', flag: '🇧🇷' },
     { code: 'es', name: 'Español', flag: '🇪🇸' },
     { code: 'zh', name: '中文', flag: '🇨🇳' },
   ];
 
-  protected currentLanguage: string = 'en';
-  protected readonly isOpen = signal<boolean>(false);
+  readonly currentLanguage = signal<string>('en');
+  readonly isOpen = signal<boolean>(false);
 
-  constructor(
-    private readonly translateService: TranslateService,
-    private readonly cdr: ChangeDetectorRef
-  ) {
-    this.currentLanguage = this.translateService.currentLang || this.translateService.defaultLang || 'en';
-    
+  constructor(private readonly translateService: TranslateService) {
+    this.currentLanguage.set(this.translateService.currentLang || this.translateService.defaultLang || 'en');
     this.translateService.onLangChange.subscribe(event => {
-      this.currentLanguage = event.lang;
-      this.cdr.markForCheck();
+      this.currentLanguage.set(event.lang);
     });
   }
 
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent): void {
-    const target = event.target as HTMLElement;
-    if (!target.closest('.language-switcher')) {
-      this.closeDropdown();
-    }
-  }
-
-  protected toggleDropdown(): void {
-    this.isOpen.update(value => !value);
-    this.cdr.markForCheck();
-  }
-
-  protected closeDropdown(): void {
-    if (this.isOpen()) {
+    if (!(event.target as HTMLElement).closest('.language-switcher')) {
       this.isOpen.set(false);
-      this.cdr.markForCheck();
     }
   }
 
-  protected switchLanguage(languageCode: string): void {
-    if (this.currentLanguage !== languageCode) {
-      this.currentLanguage = languageCode;
+  toggleDropdown(): void {
+    this.isOpen.update(v => !v);
+  }
+
+  switchLanguage(languageCode: string): void {
+    if (this.currentLanguage() !== languageCode) {
       this.translateService.use(languageCode);
-      this.closeDropdown();
-      this.cdr.markForCheck();
+      this.isOpen.set(false);
     }
   }
 
-  protected isActive(languageCode: string): boolean {
-    return this.currentLanguage === languageCode;
+  isActive(languageCode: string): boolean {
+    return this.currentLanguage() === languageCode;
   }
 }
 

@@ -1,6 +1,6 @@
-import { Component, ChangeDetectionStrategy, ChangeDetectorRef, signal, computed } from '@angular/core';
+import { Component, ChangeDetectionStrategy, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { TranslateModule } from '@ngx-translate/core';
 import { SkillFilterDropdownComponent, FilterOption } from '../skill-filter-dropdown/skill-filter-dropdown';
 
 export type SkillCategory = 'framework' | 'language' | 'library' | 'tool' | 'testing' | 'ci-cd' | 'design' | 'extension';
@@ -21,7 +21,7 @@ export interface Skill {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SkillsComponent {
-  protected readonly allSkills: Skill[] = [
+  readonly allSkills: Skill[] = [
     { name: 'AngularJS', path: 'assets/images/angularjs-icon.svg', years: 3, category: 'framework' },
     { name: 'Angular', path: 'assets/images/angular-icon.svg', years: 6, category: 'framework' },
     { name: 'TypeScript', path: 'assets/images/typescript-icon.svg', years: 6, category: 'language' },
@@ -47,50 +47,41 @@ export class SkillsComponent {
     { name: 'Prettier', path: 'assets/images/prettier-icon.png', years: 6, category: 'extension' },
   ];
 
-  protected readonly currentFilter = signal<FilterOption>('none');
+  readonly currentFilter = signal<FilterOption>('none');
 
-  protected readonly skills = computed(() => {
+  readonly skills = computed(() => {
     const filter = this.currentFilter();
-    let filtered = [...this.allSkills];
-
+    const skills = [...this.allSkills];
+    
     if (filter === 'experience') {
-      filtered.sort((a, b) => b.years - a.years);
+      skills.sort((a, b) => b.years - a.years);
     } else if (filter === 'category') {
-      filtered.sort((a, b) => a.category.localeCompare(b.category));
+      skills.sort((a, b) => a.category.localeCompare(b.category));
     }
-
-    return filtered;
+    
+    return skills;
   });
 
-  constructor(
-    private readonly cdr: ChangeDetectorRef,
-    private readonly translateService: TranslateService
-  ) {}
+  readonly categoryMap: Record<SkillCategory, string> = {
+    'framework': 'FRAMEWORK',
+    'language': 'LANGUAGE',
+    'library': 'LIBRARY',
+    'tool': 'TOOL',
+    'testing': 'TESTING',
+    'ci-cd': 'CI_CD',
+    'design': 'DESIGN',
+    'extension': 'EXTENSION',
+  };
 
-  protected onFilterChange(filter: FilterOption): void {
+  onFilterChange(filter: FilterOption): void {
     this.currentFilter.set(filter);
-    this.cdr.markForCheck();
   }
 
-  protected getYearsOfExperience(skill: Skill): number {
-    return skill.years;
+  getCategoryKey(category: SkillCategory): string {
+    return `SKILLS.CATEGORIES.${this.categoryMap[category]}`;
   }
 
-  protected getCategoryKey(category: SkillCategory): string {
-    const categoryMap: Record<SkillCategory, string> = {
-      'framework': 'FRAMEWORK',
-      'language': 'LANGUAGE',
-      'library': 'LIBRARY',
-      'tool': 'TOOL',
-      'testing': 'TESTING',
-      'ci-cd': 'CI_CD',
-      'design': 'DESIGN',
-      'extension': 'EXTENSION',
-    };
-    return `SKILLS.CATEGORIES.${categoryMap[category]}`;
-  }
-
-  protected trackBySkillName(index: number, skill: Skill): string {
+  trackBySkillName(_: number, skill: Skill): string {
     return skill.name;
   }
 }

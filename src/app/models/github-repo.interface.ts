@@ -1,3 +1,7 @@
+export interface GitHubRepoOwner {
+  login: string;
+}
+
 export interface GitHubRepo {
   id: number;
   name: string;
@@ -12,5 +16,6 @@ export interface GitHubRepo {
   size: number;
   stargazers_count: number;
   topics: string[];
+  owner: GitHubRepoOwner;
 }
 

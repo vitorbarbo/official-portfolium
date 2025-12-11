@@ -18,20 +18,20 @@ export interface Language {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LanguagesComponent {
-  protected readonly languages: Language[] = [
+  readonly languages: Language[] = [
     { name: 'PORTUGUESE', level: 100, icon: '🇧🇷', proficiency: 'NATIVE' },
     { name: 'ENGLISH', level: 90, icon: '🇺🇸', proficiency: 'PROFICIENT' },
     { name: 'SPANISH', level: 50, icon: '🇪🇸', proficiency: 'INTERMEDIATE' },
   ];
 
-  protected getLevelLabel(level: number): string {
+  getLevelLabel(level: number): string {
     if (level >= 90) return 'EXPERT';
     if (level >= 75) return 'ADVANCED';
     if (level >= 60) return 'INTERMEDIATE';
     return 'BASIC';
   }
 
-  protected trackByLanguageName(index: number, language: Language): string {
+  trackByLanguageName(_: number, language: Language): string {
     return language.name;
   }
 }

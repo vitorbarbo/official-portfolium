@@ -51,8 +51,8 @@
                 <span class="about__achievement-icon-symbol">{{ getAchievementIcon(i) }}</span>
               </div>
               <div class="about__achievement-content">
-                <h4 class="about__achievement-title">{{ 'ABOUT.ACHIEVEMENTS.' + key + '.TITLE' | translate }}</h4>
-                <p class="about__achievement-description">{{ 'ABOUT.ACHIEVEMENTS.' + key + '.DESCRIPTION' | translate }}</p>
+                <h4 class="about__achievement-title">{{ getAchievementTitle(key) | translate }}</h4>
+                <p class="about__achievement-description">{{ getAchievementDescription(key) | translate }}</p>
               </div>
               <div class="about__achievement-glow"></div>
             </div>
@@ -83,14 +83,14 @@
         <button
           class="about__carousel-button about__carousel-button--prev"
           (click)="goToPreviousProject()"
-          [disabled]="!canGoPrevious()"
+          [disabled]="!canNavigate()"
           [attr.aria-label]="'ABOUT.PROJECTS.PREVIOUS' | translate"
         >
           <span class="about__carousel-arrow">←</span>
         </button>
         
         <div class="about__carousel-container">
-          @if (getCurrentProject(); as project) {
+          @if (currentProject(); as project) {
             <div 
               class="about__project-card"
               [class.about__project-card--slide-left]="slideDirection() === 'left'"
@@ -109,7 +109,13 @@
               }
               <div class="about__project-footer">
                 <div class="about__project-technologies">
-                    <span class="about__project-tech-badge">{{ project.technologies }}</span>
+                  @if (isLoadingLanguages()) {
+                    <span class="about__project-tech-loading">{{ 'ABOUT.PROJECTS.LOADING_LANGUAGES' | translate }}</span>
+                  } @else {
+                    @for (tech of projectLanguages(); track tech) {
+                      <span class="about__project-tech-badge">{{ tech }}</span>
+                    }
+                  }
                 </div>
                 <a
                   [href]="project.githubUrl"
@@ -128,7 +134,7 @@
         <button
           class="about__carousel-button about__carousel-button--next"
           (click)="goToNextProject()"
-          [disabled]="!canGoNext()"
+          [disabled]="!canNavigate()"
           [attr.aria-label]="'ABOUT.PROJECTS.NEXT' | translate"
         >
           <span class="about__carousel-arrow">→</span>
@@ -158,7 +164,6 @@
             [href]="link.href"
             class="about__contact-link"
             [target]="link.external ? '_blank' : null"
-            [rel]="link.external ? 'noopener noreferrer' : null"
           >
             <span class="about__contact-icon">{{ link.icon }}</span>
             <span>{{ link.label }}</span>

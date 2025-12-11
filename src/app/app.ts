@@ -12,9 +12,10 @@ import { LanguageSwitcherComponent } from './components/language-switcher/langua
   imports: [CommonModule, HeroComponent, AboutComponent, ExperienceComponent, SkillsComponent, LanguagesComponent, LanguageSwitcherComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class App {
-  protected readonly codeLines = [
+  readonly codeLines = [
     "import { Component, OnInit, signal, computed } from '@angular/core';",
     "import { HttpClient } from '@angular/common/http';",
     "import { Observable, of, map, catchError } from 'rxjs';",
@@ -131,7 +132,4 @@ export class App {
     '}',
   ];
 
-  protected trackByIndex(index: number): number {
-    return index;
-  }
 }

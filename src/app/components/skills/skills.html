@@ -12,8 +12,7 @@
               <img class="skills__icon" [src]="skill.path" [alt]="skill.name">
             </div>
             <div class="skills__card-back">
-              <span class="skills__years">{{ getYearsOfExperience(skill) }} {{ 'SKILLS.YEARS' | translate }}</span>
-              <!-- <span class="skills__category">{{ getCategoryKey(skill.category) | translate }}</span> -->
+              <span class="skills__years">{{ skill.years }} {{ 'SKILLS.YEARS' | translate }}</span>
             </div>
           </div>
         </div>

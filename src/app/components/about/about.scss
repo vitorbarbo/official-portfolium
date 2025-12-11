@@ -417,6 +417,22 @@
   gap: 0.5rem;
 }
 
+.about__project-tech-loading {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+  font-style: italic;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
 .about__project-tech-badge {
   padding: 0.375rem 0.75rem;
   background: rgba(59, 130, 246, 0.2);
@@ -507,7 +523,6 @@
   }
 
   &:hover {
-    transform: translateY(-8px) scale(1.02);
     border-color: rgba(59, 130, 246, 0.5);
     box-shadow: 0 20px 40px rgba(59, 130, 246, 0.2), 0 0 20px rgba(139, 92, 246, 0.1);
 
