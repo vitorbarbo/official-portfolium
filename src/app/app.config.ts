@@ -1,7 +1,7 @@
 import { ApplicationConfig, provideBrowserGlobalErrorListeners, importProvidersFrom, APP_INITIALIZER } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { provideHttpClient, withInterceptors } from '@angular/common/http';
-import { TranslateModule, TranslateLoader, TranslateService } from '@ngx-translate/core';
+import { TranslateModule, TranslateLoader, TranslateService, TranslationObject } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, firstValueFrom } from 'rxjs';
 
@@ -11,8 +11,8 @@ import { githubProxyInterceptor } from './interceptors/github-proxy.interceptor'
 export class CustomTranslateLoader implements TranslateLoader {
   constructor(private http: HttpClient) {}
 
-  getTranslation(lang: string): Observable<any> {
-    return this.http.get(`./assets/i18n/${lang}.json`);
+  getTranslation(lang: string): Observable<TranslationObject> {
+    return this.http.get<TranslationObject>(`./assets/i18n/${lang}.json`);
   }
 }
 

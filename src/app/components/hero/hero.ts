@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy, signal, ChangeDetectionStrategy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-hero',
@@ -26,7 +27,7 @@ export class HeroComponent implements OnInit, OnDestroy {
   private cursorInterval: ReturnType<typeof setInterval> | null = null;
   private isAnimating = false;
   private restartTimeout: ReturnType<typeof setTimeout> | null = null;
-  private langChangeSubscription: any;
+  private langChangeSubscription: Subscription | null = null;
 
   constructor(private readonly translateService: TranslateService) {
     this.langChangeSubscription = this.translateService.onLangChange.subscribe(() => {
@@ -103,6 +104,7 @@ export class HeroComponent implements OnInit, OnDestroy {
     }
     if (this.langChangeSubscription) {
       this.langChangeSubscription.unsubscribe();
+      this.langChangeSubscription = null;
     }
   }
 
