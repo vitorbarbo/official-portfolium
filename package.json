@@ -26,6 +26,15 @@
       }
     ]
   },
+  "lint-staged": {
+    "*.{ts,html}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,scss,css,md}": [
+      "prettier --write"
+    ]
+  },
   "private": true,
   "packageManager": "npm@10.9.2",
   "dependencies": {
