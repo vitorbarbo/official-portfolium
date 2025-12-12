@@ -1,6 +1,6 @@
 {
   "root": true,
-  "ignorePatterns": ["projects/**/*", "dist/**", "node_modules/**", "*.spec.ts", "jest-setup.ts", "jest.config.js"],
+  "ignorePatterns": ["projects/**/*", "dist/**", "node_modules/**", "*.spec.ts"],
   "overrides": [
     {
       "files": ["*.ts"],
