@@ -1,0 +1,19 @@
+<div class="app-background">
+  <div class="app-background__code-lines">
+    @for (line of codeLines; track $index) {
+      <div
+        class="app-background__code-line"
+        [style.animation-delay.ms]="$index * 50"
+        [attr.data-line]="$index"
+      >
+        <span class="app-background__code-line-number">{{ $index + 1 }}</span>
+        <span class="app-background__code-line-content">{{ line || ' ' }}</span>
+      </div>
+    }
+  </div>
+  <div class="app-background__gradient-overlay"></div>
+</div>
+<div class="app-language-switcher-wrapper">
+  <app-language-switcher></app-language-switcher>
+</div>
+<ng-content></ng-content>
