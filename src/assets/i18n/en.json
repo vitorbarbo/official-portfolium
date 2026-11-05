@@ -3,11 +3,11 @@
     "NAME": "Vitor Duarte Barbosa",
     "TITLE": "Senior Angular Software Engineer",
     "LOCATION": "Campinas, São Paulo - Brazil",
-    "DESCRIPTION": "6+years building scalable Angular applications for global companies",
+    "DESCRIPTION": "7+ years building scalable Angular applications for global companies",
     "STATS": {
       "YEARS_EXPERIENCE": "Years Experience",
-      "USERS_SERVED": "Users Served",
-      "PROJECTS_DELIVERED": "Projects Delivered"
+      "CLIENT_APPS": "Client Apps",
+      "COUNTRIES": "Countries"
     },
     "KNOW_ABOUT_ME": "Know more"
   },
@@ -19,7 +19,7 @@
       "CONTACT": "Contact"
     },
     "TITLE": "Senior Angular Software Engineer",
-    "SUMMARY": "I'm a Senior Front-End Engineer with 6+years' experience in Angular (modern versions & AngularJS) and TypeScript, building scalable, responsive applications for companies around the Globe.",
+    "SUMMARY": "I'm a Senior Front-End Engineer with 7+ years' experience in Angular (modern versions & AngularJS) and TypeScript, building scalable, responsive applications for companies around the Globe. I currently work as a Senior Software Engineer on a B2B SaaS product in adtech — Angular 17–20, dashboards, tracking and checkout integrations.",
     "KEY_ACHIEVEMENTS": "Key Achievements",
     "ACHIEVEMENTS": {
       "ENHANCED_CODE_EFFICIENCY": {
@@ -32,7 +32,7 @@
       },
       "TOP_DEVELOPER": {
         "TITLE": "Top Developer on Client-Facing Apps",
-        "DESCRIPTION": "Top developer of 20+ client web apps with over 5K monthly users."
+        "DESCRIPTION": "Top developer of 6+ client web apps with over 1K monthly users."
       },
       "GLOBAL_STAKEHOLDERS": {
         "TITLE": "Global Stakeholders Presentation",
@@ -55,7 +55,7 @@
       "ONTOP_PROTOTYPE": {
         "TITLE": "OnTop Prototype",
         "DATE": "Jul 2022 - Sep 2022",
-        "DESCRIPTION": "Prototype development for a major IT project using Angular, TypeScript, and SCSS. Built reusable components and modular structures across three core environments, directly supporting 15K+ monthly active users.",
+        "DESCRIPTION": "Prototype development for a major IT project using Angular, TypeScript, and SCSS. Built reusable components and modular structures across three core environments.",
         "LEARNED": "Advanced Angular component architecture, TypeScript best practices, SCSS modularization, and building scalable front-end applications. Gained experience in cross-environment development and performance optimization."
       },
       "CRUD_PACTO_SOLUCOES": {
@@ -85,12 +85,35 @@
     "TITLE": "Professional Experience",
     "TECHNOLOGIES_LABEL": "Technologies:",
     "COMPANIES": {
+      "RATOEIRA": {
+        "ROLE": "Senior Software Engineer",
+        "PERIOD": "May 2026 - Present",
+        "LOCATION": "Campinas, São Paulo - Brazil · Remote",
+        "ACHIEVEMENTS": [
+          "Migrated the main Angular app from v17 to v20 and aligned the stack (standalone, OnPush, i18n, Husky) across the tracker, APIs, queues and tracking script.",
+          "Built ad-network and checkout integrations (such as Google, Meta and TikTok) plus payment platforms, including S2S webhooks, CAPI events and conversion attribution.",
+          "Shipped the product clients use day to day: Hub SSO, admin, financial and sales dashboards, conversion and tracking pixels, ads manager and plan-based limits.",
+          "Closed 200+ sprint and support tickets on timezone, currency, conversions and client-facing bugs, from the UI down to the APIs and queues."
+        ]
+      },
+      "AHOY": {
+        "ROLE": "Senior Software Engineer",
+        "PERIOD": "Jan 2026 - May 2026",
+        "LOCATION": "Brazil · Remote",
+        "ACHIEVEMENTS": [
+          "Architected / lead-developed a client portal from scratch (Angular 20, TypeScript, Material).",
+          "Integrated Keycloak SSO with JWT: guards, HTTP interceptor for Bearer tokens, role-based access.",
+          "Delivered core admin modules as standalone components: CRUD, PDF/Excel export, reusable data tables, filters and complex reactive forms.",
+          "Designed the architecture: standalone components, Signals, OnPush, lazy-loaded routes, environment config.",
+          "Established standards: Docker, Nginx, Jest, ESLint/Prettier, Husky, documented guidelines."
+        ]
+      },
       "QIMA": {
-        "ROLE": "Software Engineer",
+        "ROLE": "Senior Software Engineer",
         "PERIOD": "Mar 2023 - Dec 2025",
         "LOCATION": "China · Remote",
         "ACHIEVEMENTS": [
-          "Served as a principal contributor in high-profile global projects using AngularJS and modern Angular, engineering scalable architectures supporting 5K+ monthly active users.",
+          "Key contributor to AngularJS legacy and modern Angular apps, building scalable solutions and delivering critical features used by thousands of daily users.",
           "Designed and optimized component architectures, increasing maintainability and reducing rework by 35% while ensuring technical excellence across platforms.",
           "Delivered complex integrations with mission-critical APIs, automating workflows and enhancing operational speed at an international scale.",
           "Presented new features and project results directly to executive directors in bi-weekly sessions, driving strategic alignment in high-pressure environments."
@@ -102,7 +125,7 @@
         "LOCATION": "Buenos Aires - Argentina · Remote",
         "ACHIEVEMENTS": [
           "Built reusable components and optimized UI/UX performance in high-scale Angular projects, cutting load time by 28%.",
-          "Collaborated with international teams to integrate REST APIs, ensuring scalable and consistent delivery for systems serving 20K+ daily users.",
+          "Collaborated with international teams to integrate REST APIs, ensuring scalable and consistent delivery.",
           "Enforced clean architecture and continuous delivery pipelines, accelerating deployment cycles by 40% and minimizing production errors."
         ]
       },
@@ -111,7 +134,7 @@
         "PERIOD": "Jul 2022 - Set 2022",
         "LOCATION": "Colombia · Remote",
         "ACHIEVEMENTS": [
-          "Contributed to a major IT project in Angular + SCSS + TypeScript across three core environments, directly supporting 15K+ monthly active users.",
+          "Contributed to a major IT project in Angular + SCSS + TypeScript across three core environments.",
           "Designed reusable components and robust modular structures, cutting new feature development time by 25%.",
           "Delivered responsive layouts and backend integrations via REST, ensuring compatibility and high performance across devices.",
           "Performed integrated testing and bug fixing, reducing production error rates by 30%."
@@ -175,4 +198,3 @@
     }
   }
 }
-

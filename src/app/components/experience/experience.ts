@@ -18,8 +18,18 @@ export interface Experience {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ExperienceComponent implements OnInit {
-  readonly companyKeys = ['QIMA', 'BAIRESDEV', 'ONTOP', 'HAUSZ', 'PDCA'];
+  readonly companyKeys = ['RATOEIRA', 'AHOY', 'QIMA', 'BAIRESDEV', 'ONTOP', 'HAUSZ', 'PDCA'];
   readonly experiences: Experience[] = [
+    {
+      company: 'Ratoeira Ads',
+      companyUrl: '',
+      technologies: ['Angular', 'TypeScript', 'JavaScript', 'RxJS', 'Jest', 'HTML5', 'CSS', 'SCSS', 'GitHub'],
+    },
+    {
+      company: 'Ahoy by Belago',
+      companyUrl: '',
+      technologies: ['Angular', 'TypeScript', 'JavaScript', 'Jest', 'HTML5', 'CSS', 'SCSS', 'Docker', 'GitHub'],
+    },
     {
       company: 'QIMA/WQS',
       companyUrl: 'https://www.qima.com',      

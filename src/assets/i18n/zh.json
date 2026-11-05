@@ -3,11 +3,11 @@
     "NAME": "Vitor Duarte Barbosa",
     "TITLE": "高级 Angular 软件工程师",
     "LOCATION": "坎皮纳斯, 圣保罗 - 巴西",
-    "DESCRIPTION": "6+年为全球公司构建可扩展的 Angular 应用程序",
+    "DESCRIPTION": "7+年为全球公司构建可扩展的 Angular 应用程序",
     "STATS": {
       "YEARS_EXPERIENCE": "年经验",
-      "USERS_SERVED": "服务用户",
-      "PROJECTS_DELIVERED": "交付项目"
+      "CLIENT_APPS": "客户应用",
+      "COUNTRIES": "国家"
     },
     "KNOW_ABOUT_ME": "了解更多"
   },
@@ -19,7 +19,7 @@
       "CONTACT": "联系方式"
     },
     "TITLE": "高级 Angular 软件工程师",
-    "SUMMARY": "我是一名高级前端工程师，拥有 6 年以上的 Angular（现代版本和 AngularJS）和 TypeScript 经验，为全球各地的公司构建可扩展、响应式的应用程序。",
+    "SUMMARY": "我是一名高级前端工程师，拥有 7 年以上的 Angular（现代版本和 AngularJS）和 TypeScript 经验，为全球各地的公司构建可扩展、响应式的应用程序。目前担任 B2B adtech SaaS 的高级软件工程师 — Angular 17–20、仪表板、tracking 与结账集成。",
     "KEY_ACHIEVEMENTS": "主要成就",
     "ACHIEVEMENTS": {
       "ENHANCED_CODE_EFFICIENCY": {
@@ -32,7 +32,7 @@
       },
       "TOP_DEVELOPER": {
         "TITLE": "面向客户应用的首席开发人员",
-        "DESCRIPTION": "20+ 个面向客户的 Web 应用程序的首席开发人员，每月用户超过 5K。"
+        "DESCRIPTION": "6+ 个面向客户的 Web 应用程序的首席开发人员，每月用户超过 1K。"
       },
       "GLOBAL_STAKEHOLDERS": {
         "TITLE": "全球利益相关者演示",
@@ -55,7 +55,7 @@
       "ONTOP_PROTOTYPE": {
         "TITLE": "OnTop 原型",
         "DATE": "2022年7月 - 2022年9月",
-        "DESCRIPTION": "使用 Angular、TypeScript 和 SCSS 开发的大型 IT 项目原型。在三个核心环境中构建可重用组件和模块化结构，直接支持 15K+ 月活跃用户。",
+        "DESCRIPTION": "使用 Angular、TypeScript 和 SCSS 开发的大型 IT 项目原型。在三个核心环境中构建可重用组件和模块化结构。",
         "LEARNED": "高级 Angular 组件架构、TypeScript 最佳实践、SCSS 模块化以及构建可扩展的前端应用程序。获得了跨环境开发和性能优化的经验。"
       },
       "CRUD_PACTO_SOLUCOES": {
@@ -85,12 +85,35 @@
     "TITLE": "专业经验",
     "TECHNOLOGIES_LABEL": "技术：",
     "COMPANIES": {
+      "RATOEIRA": {
+        "ROLE": "高级软件工程师",
+        "PERIOD": "2026年5月 - 至今",
+        "LOCATION": "坎皮纳斯, 圣保罗 - 巴西 · 远程",
+        "ACHIEVEMENTS": [
+          "将主 Angular 应用从 v17 迁移到 v20，并统一 tracker、API、队列和 tracking script 的技术栈（standalone、OnPush、i18n、Husky）。",
+          "构建广告网络和结账集成（如 Google、Meta 和 TikTok）以及支付平台，包括 S2S webhook、CAPI 事件和转化归因。",
+          "交付客户日常使用的产品：Hub SSO、后台、财务与销售仪表板、转化/tracking 像素、广告管理器和按套餐限制。",
+          "关闭 200+ 个 sprint 和支持工单，覆盖时区、货币、转化和面向客户的缺陷，从前端到 API 与队列。"
+        ]
+      },
+      "AHOY": {
+        "ROLE": "高级软件工程师",
+        "PERIOD": "2026年1月 - 2026年5月",
+        "LOCATION": "巴西 · 远程",
+        "ACHIEVEMENTS": [
+          "从零架构并主导开发客户门户（Angular 20、TypeScript、Material）。",
+          "集成 Keycloak SSO 与 JWT：guards、Bearer token 的 HTTP interceptor、基于角色的访问。",
+          "以 standalone components 交付核心后台模块：CRUD、PDF/Excel 导出、可复用表格、筛选和复杂响应式表单。",
+          "设计架构：standalone components、Signals、OnPush、懒加载路由、环境配置。",
+          "建立规范：Docker、Nginx、Jest、ESLint/Prettier、Husky 及文档化指南。"
+        ]
+      },
       "QIMA": {
-        "ROLE": "软件工程师",
+        "ROLE": "高级软件工程师",
         "PERIOD": "2023年3月 - 2025年12月",
         "LOCATION": "中国 · 远程",
         "ACHIEVEMENTS": [
-          "在使用 AngularJS 和现代 Angular 的高调全球项目中担任主要贡献者，开发支持 5K+ 月活跃用户的可扩展架构。",
+          "在 AngularJS 遗留与现代 Angular 应用中担任核心贡献者，构建可扩展方案并交付数千名日活用户使用的关键功能。",
           "设计和优化组件架构，将可维护性提高 35%，同时确保跨平台的技术卓越。",
           "交付与关键 API 的复杂集成，自动化工作流程并在国际范围内提高运营速度。",
           "在双周会议中直接向执行董事展示新功能和项目结果，在高压环境中推动战略一致性。"
@@ -102,7 +125,7 @@
         "LOCATION": "布宜诺斯艾利斯 - 阿根廷 · 远程",
         "ACHIEVEMENTS": [
           "在大型 Angular 项目中构建可重用组件并优化 UI/UX 性能，将加载时间缩短 28%。",
-          "与国际团队合作集成 REST API，确保为服务 20K+ 日活跃用户的系统提供可扩展和一致的交付。",
+          "与国际团队合作集成 REST API，确保可扩展且一致的交付。",
           "实施清洁架构和持续交付管道，将部署周期加速 40% 并最小化生产错误。"
         ]
       },
@@ -111,7 +134,7 @@
         "PERIOD": "2022年7月 - 2022年9月",
         "LOCATION": "哥伦比亚 · 远程",
         "ACHIEVEMENTS": [
-          "在三个核心环境的 Angular + SCSS + TypeScript 大型 IT 项目中做出贡献，直接支持 15K+ 月活跃用户。",
+          "在三个核心环境中参与基于 Angular + SCSS + TypeScript 的大型 IT 项目。",
           "设计可重用组件和强大的模块化结构，将新功能开发时间缩短 25%。",
           "通过 REST 交付响应式布局和后端集成，确保跨设备的兼容性和高性能。",
           "执行集成测试和错误修复，将生产错误率降低 30%。"
@@ -175,4 +198,3 @@
     }
   }
 }
-

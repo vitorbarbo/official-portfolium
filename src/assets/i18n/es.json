@@ -3,11 +3,11 @@
     "NAME": "Vitor Duarte Barbosa",
     "TITLE": "Ingeniero de Software Angular Senior",
     "LOCATION": "Campinas, São Paulo - Brasil",
-    "DESCRIPTION": "6+años construyendo aplicaciones Angular escalables para empresas globales",
+    "DESCRIPTION": "7+ años construyendo aplicaciones Angular escalables para empresas globales",
     "STATS": {
       "YEARS_EXPERIENCE": "Años de Experiencia",
-      "USERS_SERVED": "Usuarios Atendidos",
-      "PROJECTS_DELIVERED": "Proyectos Entregados"
+      "CLIENT_APPS": "Apps de clientes",
+      "COUNTRIES": "Países"
     },
     "KNOW_ABOUT_ME": "Saber más"
   },
@@ -19,7 +19,7 @@
       "CONTACT": "Contacto"
     },
     "TITLE": "Ingeniero de Software Angular Senior",
-    "SUMMARY": "Soy un Ingeniero Front-End Senior con más de 6 años de experiencia en Angular (versiones modernas y AngularJS) y TypeScript, construyendo aplicaciones escalables y responsivas para empresas alrededor del mundo.",
+    "SUMMARY": "Soy un Ingeniero Front-End Senior con más de 7 años de experiencia en Angular (versiones modernas y AngularJS) y TypeScript, construyendo aplicaciones escalables y responsivas para empresas alrededor del mundo. Actualmente trabajo como Senior Software Engineer en un producto SaaS B2B de adtech — Angular 17–20, dashboards, tracking e integraciones de checkout.",
     "KEY_ACHIEVEMENTS": "Logros Clave",
     "ACHIEVEMENTS": {
       "ENHANCED_CODE_EFFICIENCY": {
@@ -32,7 +32,7 @@
       },
       "TOP_DEVELOPER": {
         "TITLE": "Desarrollador Top en Apps para Clientes",
-        "DESCRIPTION": "Desarrollador principal de 20+ aplicaciones web para clientes con más de 5K usuarios mensuales."
+        "DESCRIPTION": "Desarrollador principal de 6+ aplicaciones web para clientes con más de 1K usuarios mensuales."
       },
       "GLOBAL_STAKEHOLDERS": {
         "TITLE": "Presentación para Stakeholders Globales",
@@ -55,7 +55,7 @@
       "ONTOP_PROTOTYPE": {
         "TITLE": "OnTop Prototype",
         "DATE": "Jul 2022 - Sep 2022",
-        "DESCRIPTION": "Desarrollo de prototipo para un gran proyecto de TI usando Angular, TypeScript y SCSS. Construí componentes reutilizables y estructuras modulares en tres entornos principales, soportando directamente más de 15K usuarios activos mensuales.",
+        "DESCRIPTION": "Desarrollo de prototipo para un gran proyecto de TI usando Angular, TypeScript y SCSS. Construí componentes reutilizables y estructuras modulares en tres entornos principales.",
         "LEARNED": "Arquitectura avanzada de componentes Angular, mejores prácticas de TypeScript, modularización SCSS y construcción de aplicaciones front-end escalables. Gané experiencia en desarrollo cross-environment y optimización de rendimiento."
       },
       "CRUD_PACTO_SOLUCOES": {
@@ -85,12 +85,35 @@
     "TITLE": "Experiencia Profesional",
     "TECHNOLOGIES_LABEL": "Tecnologías:",
     "COMPANIES": {
+      "RATOEIRA": {
+        "ROLE": "Ingeniero de Software Senior",
+        "PERIOD": "May 2026 - Actualidad",
+        "LOCATION": "Campinas, São Paulo - Brasil · Remoto",
+        "ACHIEVEMENTS": [
+          "Migré la app Angular principal de v17 a v20 y alineé el stack (standalone, OnPush, i18n, Husky) en el tracker, APIs, colas y script de tracking.",
+          "Construí integraciones de redes de anuncios y checkout (como Google, Meta y TikTok) y plataformas de pago, incluyendo webhooks S2S, eventos CAPI y atribución de conversión.",
+          "Entregué el producto que los clientes usan a diario: Hub SSO, admin, dashboards financiero y de ventas, pixels de conversión y tracking, gestor de anuncios y límites por plan.",
+          "Cerré 200+ tickets de sprint y soporte sobre zona horaria, moneda, conversiones y bugs visibles al cliente, de la UI hasta las APIs y colas."
+        ]
+      },
+      "AHOY": {
+        "ROLE": "Ingeniero de Software Senior",
+        "PERIOD": "Ene 2026 - May 2026",
+        "LOCATION": "Brasil · Remoto",
+        "ACHIEVEMENTS": [
+          "Arquitecté / lideré el desarrollo del portal de clientes desde cero (Angular 20, TypeScript, Material).",
+          "Integré SSO Keycloak con JWT: guards, interceptor HTTP para Bearer tokens, acceso por roles.",
+          "Entregué módulos de admin como standalone components: CRUD, exportación PDF/Excel, tablas reutilizables, filtros y formularios reactivos complejos.",
+          "Diseñé la arquitectura: standalone components, Signals, OnPush, rutas lazy-loaded, config por entorno.",
+          "Establecí estándares: Docker, Nginx, Jest, ESLint/Prettier, Husky, guidelines documentadas."
+        ]
+      },
       "QIMA": {
-        "ROLE": "Ingeniero de Software",
+        "ROLE": "Ingeniero de Software Senior",
         "PERIOD": "Mar 2023 - Dic 2025",
         "LOCATION": "China · Remoto",
         "ACHIEVEMENTS": [
-          "Actué como principal contribuidor en proyectos globales de alto perfil usando AngularJS y Angular moderno, desarrollando arquitecturas escalables que soportan más de 5K usuarios activos mensuales.",
+          "Contribuidor clave en apps AngularJS legado y Angular moderno, construyendo soluciones escalables y entregando features críticas usadas por miles de usuarios diarios.",
           "Diseñé y optimicé arquitecturas de componentes, aumentando la mantenibilidad y reduciendo el retrabajo en un 35%, garantizando excelencia técnica en todas las plataformas.",
           "Entregué integraciones complejas con APIs críticas, automatizando flujos de trabajo y mejorando la velocidad operacional a escala internacional.",
           "Presenté nuevas funcionalidades y resultados de proyectos directamente a directores ejecutivos en sesiones quincenales, promoviendo alineación estratégica en entornos de alta presión."
@@ -102,7 +125,7 @@
         "LOCATION": "Buenos Aires - Argentina · Remoto",
         "ACHIEVEMENTS": [
           "Construí componentes reutilizables y optimicé el rendimiento de UI/UX en proyectos Angular de gran escala, reduciendo el tiempo de carga en un 28%.",
-          "Colaboré con equipos internacionales para integrar APIs REST, garantizando entrega escalable y consistente para sistemas que atienden más de 20K usuarios diarios.",
+          "Colaboré con equipos internacionales para integrar APIs REST, garantizando entrega escalable y consistente.",
           "Implementé arquitectura limpia y pipelines de entrega continua, acelerando ciclos de despliegue en un 40% y minimizando errores de producción."
         ]
       },
@@ -111,7 +134,7 @@
         "PERIOD": "Jul 2022 - Sep 2022",
         "LOCATION": "Colombia · Remoto",
         "ACHIEVEMENTS": [
-          "Contribuí a un gran proyecto de TI en Angular + SCSS + TypeScript en tres entornos principales, soportando directamente más de 15K usuarios activos mensuales.",
+          "Contribuí a un gran proyecto de TI en Angular + SCSS + TypeScript en tres entornos principales.",
           "Diseñé componentes reutilizables y estructuras modulares robustas, reduciendo el tiempo de desarrollo de nuevas funcionalidades en un 25%.",
           "Entregué diseños responsivos e integraciones de backend vía REST, garantizando compatibilidad y alto rendimiento en todos los dispositivos.",
           "Realicé pruebas integradas y corrección de errores, reduciendo las tasas de error de producción en un 30%."
@@ -175,4 +198,3 @@
     }
   }
 }
-
