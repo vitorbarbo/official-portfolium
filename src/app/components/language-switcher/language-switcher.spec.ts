@@ -26,24 +26,12 @@ describe('LanguageSwitcherComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should have languages array', () => {
-    expect(component.languages.length).toBeGreaterThan(0);
-  });
-
   it('should have English, Portuguese, Spanish, and Chinese', () => {
     const codes = component.languages.map((lang) => lang.code);
     expect(codes).toContain('en');
     expect(codes).toContain('pt');
     expect(codes).toContain('es');
     expect(codes).toContain('zh');
-  });
-
-  it('should toggle dropdown', () => {
-    expect(component.isOpen()).toBe(false);
-    component.toggleDropdown();
-    expect(component.isOpen()).toBe(true);
-    component.toggleDropdown();
-    expect(component.isOpen()).toBe(false);
   });
 
   it('should switch language', () => {

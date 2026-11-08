@@ -1,21 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+  --paper: #f3efe6;
+  --paper-2: #faf6ee;
+  --ink: #1a1916;
+  --muted: #5e584e;
+  --line: #d9d2c4;
+  --teal: #006666;
+  --teal-dark: #004848;
+  --teal-soft: #e4f1f1;
+  --spine: 12px;
+  --serif: 'Bitter', Georgia, 'Times New Roman', serif;
+  --sans: 'Source Sans 3', 'Segoe UI', sans-serif;
+  --max: 1120px;
+  --pad: clamp(1.1rem, 4.2vw, 3.25rem);
+  --header: 4.35rem;
+}
 
 html,
 body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
-  overflow-x: hidden;
+  max-width: 100%;
+  min-height: 100%;
+  background: var(--paper);
+  color: var(--ink);
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: var(--sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--spine);
+  height: 100%;
+  background: var(--teal);
+  box-shadow: 1px 0 0 rgba(255, 252, 247, 0.28);
+  z-index: 2000;
+  pointer-events: none;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
 * {
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+li,
+a,
+dd,
+dt,
+span,
+button {
+  overflow-wrap: break-word;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 860px) {
+  :root {
+    --spine: 10px;
+    --header: 5.7rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

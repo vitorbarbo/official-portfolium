@@ -23,36 +23,91 @@ export class ExperienceComponent implements OnInit {
     {
       company: 'Ratoeira Ads',
       companyUrl: '',
-      technologies: ['Angular', 'TypeScript', 'JavaScript', 'RxJS', 'Jest', 'HTML5', 'CSS', 'SCSS', 'GitHub'],
+      technologies: [
+        'Angular',
+        'TypeScript',
+        'JavaScript',
+        'RxJS',
+        'Node.js',
+        'Java',
+        'Jest',
+        'HTML5',
+        'CSS',
+        'SCSS',
+        'GitHub',
+      ],
     },
     {
       company: 'Ahoy by Belago',
       companyUrl: '',
-      technologies: ['Angular', 'TypeScript', 'JavaScript', 'Jest', 'HTML5', 'CSS', 'SCSS', 'Docker', 'GitHub'],
+      technologies: [
+        'Angular',
+        'TypeScript',
+        'JavaScript',
+        'Node.js',
+        'Java',
+        'Jest',
+        'HTML5',
+        'CSS',
+        'SCSS',
+        'Docker',
+        'GitHub',
+      ],
     },
     {
       company: 'QIMA/WQS',
-      companyUrl: 'https://www.qima.com',      
-      technologies: ['Angular', 'AngularJS', 'TypeScript', 'JavaScript', 'Jest', 'Cypress', 'CircleCI', 'Jenkins', 'HTML5', 'CSS', 'SCSS', 'GitHub'],
+      companyUrl: 'https://www.qima.com',
+      technologies: [
+        'Angular',
+        'AngularJS',
+        'TypeScript',
+        'JavaScript',
+        'Jest',
+        'Cypress',
+        'CircleCI',
+        'Jenkins',
+        'HTML5',
+        'CSS',
+        'SCSS',
+        'GitHub',
+      ],
     },
     {
       company: 'BairesDev',
-      companyUrl: 'https://www.bairesdev.com',      
-      technologies: ['Angular', 'TypeScript', 'JavaScript', 'Jest', 'HTML5', 'CSS', 'SCSS', 'GitHub'],
+      companyUrl: 'https://www.bairesdev.com',
+      technologies: [
+        'Angular',
+        'TypeScript',
+        'JavaScript',
+        'Jest',
+        'HTML5',
+        'CSS',
+        'SCSS',
+        'GitHub',
+      ],
     },
     {
       company: 'Ontop',
-      companyUrl: 'https://www.getontop.com/',      
-      technologies: ['Angular', 'TypeScript', 'JavaScript', 'Jest', 'HTML5', 'CSS', 'SCSS', 'GitLab'],
+      companyUrl: 'https://www.getontop.com/',
+      technologies: [
+        'Angular',
+        'TypeScript',
+        'JavaScript',
+        'Jest',
+        'HTML5',
+        'CSS',
+        'SCSS',
+        'GitLab',
+      ],
     },
     {
       company: 'Hausz - Pisos e Ambientes',
-      companyUrl: '',      
+      companyUrl: '',
       technologies: ['Angular', 'TypeScript', 'JavaScript', 'HTML5', 'CSS', 'SCSS', 'GitHub'],
     },
     {
       company: 'PDCA Engenharia',
-      companyUrl: 'https://www.pdcaengenharia.com.br/',      
+      companyUrl: 'https://www.pdcaengenharia.com.br/',
       technologies: ['JavaScript', 'HTML5', 'CSS', 'GitHub'],
     },
   ];
@@ -68,7 +123,7 @@ export class ExperienceComponent implements OnInit {
 
   private loadAchievements(): void {
     const achievements: Record<string, string[]> = {};
-    this.companyKeys.forEach(key => {
+    this.companyKeys.forEach((key) => {
       const achievementsKey = `EXPERIENCE.COMPANIES.${key}.ACHIEVEMENTS`;
       const translated = this.translateService.instant(achievementsKey);
       achievements[key] = Array.isArray(translated) ? translated : [];

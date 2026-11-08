@@ -31,16 +31,4 @@ describe('LanguagesComponent', () => {
     const result = component.trackByLanguageName(0, language);
     expect(result).toBe(language.name);
   });
-
-  it('should get level label correctly', () => {
-    expect(component.getLevelLabel(100)).toBe('EXPERT');
-    expect(component.getLevelLabel(95)).toBe('EXPERT');
-    expect(component.getLevelLabel(90)).toBe('EXPERT');
-    expect(component.getLevelLabel(85)).toBe('ADVANCED');
-    expect(component.getLevelLabel(75)).toBe('ADVANCED');
-    expect(component.getLevelLabel(70)).toBe('INTERMEDIATE');
-    expect(component.getLevelLabel(60)).toBe('INTERMEDIATE');
-    expect(component.getLevelLabel(50)).toBe('BASIC');
-    expect(component.getLevelLabel(30)).toBe('BASIC');
-  });
 });

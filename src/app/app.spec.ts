@@ -8,11 +8,7 @@ describe('App', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [App, TranslateModule.forRoot()],
-      providers: [
-        provideHttpClient(),
-        provideHttpClientTesting(),
-        TranslateService,
-      ],
+      providers: [provideHttpClient(), provideHttpClientTesting(), TranslateService],
     }).compileComponents();
   });
 
@@ -22,10 +18,10 @@ describe('App', () => {
     expect(app).toBeTruthy();
   });
 
-  it('should render code lines background', () => {
+  it('should render the portfolio shell', () => {
     const fixture = TestBed.createComponent(App);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.app-background__code-lines')).toBeTruthy();
+    expect(compiled.querySelector('.portfolio')).toBeTruthy();
   });
 });

@@ -1,4 +1,12 @@
 {
+  "NAV": {
+    "SKIP": "Pular para o conteúdo",
+    "ABOUT": "Sobre",
+    "WORK": "Trabalho",
+    "EXPERIENCE": "Experiência",
+    "SKILLS": "Habilidades",
+    "CONTACT": "Contato"
+  },
   "HERO": {
     "NAME": "Vitor Duarte Barbosa",
     "TITLE": "Engenheiro de Software Angular Sênior",
@@ -9,7 +17,13 @@
       "CLIENT_APPS": "Apps de clientes",
       "COUNTRIES": "Países"
     },
-    "KNOW_ABOUT_ME": "Saber mais"
+    "KNOW_ABOUT_ME": "Saber mais",
+    "PHONE": "+55 19 996637468",
+    "EMAIL": "E-mail",
+    "LINKEDIN": "LinkedIn",
+    "GITHUB": "GitHub",
+    "CV_PT": "Baixar CV (PT)",
+    "CV_EN": "Baixar CV (EN)"
   },
   "ABOUT": {
     "TABS": {
@@ -19,7 +33,19 @@
       "CONTACT": "Contato"
     },
     "TITLE": "Engenheiro de Software Angular Sênior",
-    "SUMMARY": "Sou um Engenheiro Front-End Sênior com mais de 8 anos de experiência em Angular (versões modernas e AngularJS) e TypeScript, construindo aplicações escaláveis e responsivas para empresas ao redor do mundo. Atualmente atuo como Senior Software Engineer em um produto SaaS B2B de adtech — Angular 17–20, dashboards, tracking e integrações de checkout.",
+    "SUMMARY": "Com 8+ anos de experiência construindo aplicações web rápidas, escaláveis e centradas no usuário, colaborei com empresas no Brasil, China, Argentina e Colômbia para transformar ideias complexas em produtos digitais robustos.",
+    "BODY": {
+      "P1": "Com <strong>8+ anos</strong> de experiência construindo aplicações web rápidas, escaláveis e centradas no usuário, colaborei com empresas no <strong>Brasil, China, Argentina e Colômbia</strong> para transformar ideias complexas em produtos digitais robustos.",
+      "P2": "Atualmente atuo como <strong>Senior Software Engineer</strong> em um produto SaaS B2B de <strong>adtech</strong> (marketing digital) — <strong>Angular 17–20</strong>, TypeScript, dashboards, tracking, fluxos de checkout e integrações com redes de anúncios e plataformas de pagamento.",
+      "P3": "Na função atual, migrei um app Angular em produção de <strong>v17 para v20</strong> (standalone, OnPush, i18n), entreguei dashboards admin, financeiro e comercial usados pelos clientes, pixels de conversão e tracking, SSO e integrações S2S/CAPI (como Google, Meta e TikTok), e fechei <strong>200+ tickets</strong> de sprint e suporte da UI até as APIs e filas.",
+      "P4": "Na <strong>QIMA</strong>, fui contribuidor-chave em projetos globais de alto perfil em AngularJS e Angular moderno, arquitetando estruturas escaláveis, melhorando a manutenibilidade e integrando APIs críticas usadas por <strong>milhares de usuários diários</strong>. Também liderei demos executivas quinzenais, alinhando estratégia técnica à visão corporativa em ambientes de alta demanda.",
+      "P5": "Na <strong>Hausz</strong>, projetei e desenvolvi sozinho uma plataforma Angular completa de integração de fretes com <strong>5.000+ envios por mês</strong>, do levantamento de requisitos ao design responsivo, integração de APIs para cálculo de frete e tracking, e otimização de performance que reduziu o tempo de carga em <strong>40%</strong>, usando as melhores práticas do framework.",
+      "P6": "Em empresas como <strong>BairesDev</strong> e <strong>Ontop</strong>, trabalhei com times Agile/Scrum multiculturais, criando componentes reutilizáveis, melhorando UX/UI e gerando impacto de negócio em projetos internacionais."
+    },
+    "SKILLS_LABEL": "Principais habilidades",
+    "SKILLS_LINE": "Angular (14–atual) · TypeScript · JavaScript (ES6+) · RxJS · Signals · NgRx/Redux · HTML5 · CSS3 · SCSS · Responsive Design · Integração REST API · Jest · Git/GitHub/GitLab · Agile/Scrum · Comunicação com stakeholders globais",
+    "GOAL_LABEL": "Objetivo",
+    "GOAL": "Ingressar em um time global, remoto (ou remote-first), como <strong>Senior Angular Frontend Engineer / Frontend Techlead</strong> e continuar entregando produtos escaláveis de alto impacto.",
     "KEY_ACHIEVEMENTS": "Principais Conquistas",
     "ACHIEVEMENTS": {
       "ENHANCED_CODE_EFFICIENCY": {
@@ -42,7 +68,7 @@
     "AVAILABILITY": {
       "AVAILABLE": "Disponível para Oportunidades",
       "BUSY": "Atualmente Ocupado",
-      "MESSAGE": "Estou aberto a novos desafios e projetos emocionantes. Vamos construir algo incrível juntos!"
+      "MESSAGE": "Aberto a vagas sênior de Angular, CLT ou PJ, remoto no Brasil."
     },
     "PROJECTS": {
       "TITLE": "Meus Projetos Públicos",
@@ -165,6 +191,7 @@
   },
   "SKILLS": {
     "TITLE": "Habilidades e Ferramentas",
+    "YEAR": "Ano",
     "YEARS": "Anos",
     "FILTER": {
       "ALL": "Todos",
@@ -178,7 +205,8 @@
       "TOOL": "Ferramenta",
       "TESTING": "Testes",
       "CI_CD": "CI/CD",
-      "DESIGN": "Design"
+      "DESIGN": "Design",
+      "EXTENSION": "Extensão"
     }
   },
   "LANGUAGES": {
@@ -196,5 +224,14 @@
       "ENGLISH": "Inglês",
       "SPANISH": "Espanhol"
     }
+  },
+  "WORK": {
+    "TITLE": "Trabalho selecionado",
+    "INTRO": "A plataforma de frete que eu construí sozinho. Os papéis sênior em Angular que vieram depois estão na linha do tempo abaixo.",
+    "FEATURED_KICKER": "O trabalho de que tenho orgulho",
+    "FEATURED_STAT": "5.000+",
+    "FEATURED_STAT_LABEL": "envios por mês",
+    "PRIVATE_NOTE": "Ratoeira, Ahoy e QIMA são produtos privados. Não há demo pública no GitHub.",
+    "TIMELINE_NOTE": "Relato completo em Experiência Profissional."
   }
 }

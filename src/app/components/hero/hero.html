@@ -1,36 +1,53 @@
 <section class="hero">
-  <div class="hero__content">
-    <div class="hero__text">
+  <div class="hero__grid">
+    <div class="hero__copy">
+      <p class="hero__kicker">{{ 'HERO.TITLE' | translate }}</p>
       <h1 class="hero__title">
-        <span class="hero__title-line">{{ name }}</span>
-        <span class="hero__title-line hero__title-line--highlight">
-          <span class="hero__typed-text">{{ typedText() }}</span>
-          <span class="hero__cursor" [class.hero__cursor--hidden]="!showCursor()">|</span>
-        </span>
+        <span class="hero__given">{{ givenName }}</span>
+        <span class="hero__family">{{ familyName }}</span>
       </h1>
-      <p class="hero__subtitle">
-        <span class="hero__location-icon">📍</span>
-        {{ location }}
-      </p>
+      <p class="hero__location">{{ location }}</p>
       <p class="hero__description">{{ 'HERO.DESCRIPTION' | translate }}</p>
-      <div class="hero__stats">
+      <nav class="hero__contacts" aria-label="Contact">
+        <a class="hero__contact" [href]="phoneHref">{{ phone }}</a>
+        <a class="hero__contact" [href]="'mailto:' + email">{{ email }}</a>
+        <a class="hero__contact" [href]="linkedInUrl" target="_blank" rel="noopener noreferrer">{{
+          'HERO.LINKEDIN' | translate
+        }}</a>
+        <a class="hero__contact" [href]="githubUrl" target="_blank" rel="noopener noreferrer">{{
+          'HERO.GITHUB' | translate
+        }}</a>
+        <a class="hero__contact hero__contact--cv" [href]="cvPortugueseUrl">{{
+          'HERO.CV_PT' | translate
+        }}</a>
+        <a class="hero__contact hero__contact--cv" [href]="cvEnglishUrl">{{
+          'HERO.CV_EN' | translate
+        }}</a>
+      </nav>
+      <dl class="hero__stats">
         <div class="hero__stat">
-          <span class="hero__stat-number">8+</span>
-          <span class="hero__stat-label">{{ 'HERO.STATS.YEARS_EXPERIENCE' | translate }}</span>
+          <dt class="hero__stat-number">8+</dt>
+          <dd class="hero__stat-label">{{ 'HERO.STATS.YEARS_EXPERIENCE' | translate }}</dd>
         </div>
         <div class="hero__stat">
-          <span class="hero__stat-number">6+</span>
-          <span class="hero__stat-label">{{ 'HERO.STATS.CLIENT_APPS' | translate }}</span>
+          <dt class="hero__stat-number">6+</dt>
+          <dd class="hero__stat-label">{{ 'HERO.STATS.CLIENT_APPS' | translate }}</dd>
         </div>
         <div class="hero__stat">
-          <span class="hero__stat-number">4</span>
-          <span class="hero__stat-label">{{ 'HERO.STATS.COUNTRIES' | translate }}</span>
+          <dt class="hero__stat-number">4</dt>
+          <dd class="hero__stat-label">{{ 'HERO.STATS.COUNTRIES' | translate }}</dd>
         </div>
-      </div>
+      </dl>
+    </div>
+    <div class="hero__portrait">
+      <div class="hero__portrait-shift" aria-hidden="true"></div>
+      <img
+        class="hero__photo"
+        [src]="profileImagePath"
+        alt="Vitor Duarte Barbosa"
+        width="520"
+        height="520"
+      />
     </div>
   </div>
-  <button class="hero__scroll-indicator" (click)="scrollToAbout()" [attr.aria-label]="'HERO.KNOW_ABOUT_ME' | translate">
-    <div class="hero__scroll-arrow"></div>
-    <span class="hero__scroll-text">{{ 'HERO.KNOW_ABOUT_ME' | translate }}</span>
-  </button>
 </section>

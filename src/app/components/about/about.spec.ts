@@ -3,37 +3,20 @@ import { provideHttpClient } from '@angular/common/http';
 import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { AboutComponent } from './about';
-import { UserService } from '../../services/user-service';
-import { of, throwError } from 'rxjs';
 
 describe('AboutComponent', () => {
   let component: AboutComponent;
   let fixture: ComponentFixture<AboutComponent>;
-  let userService: UserService;
   let translateService: TranslateService;
-
-  const mockRepos = [
-    {
-      id: 1,
-      name: 'test-repo',
-      description: 'Test repository',
-      html_url: 'https://github.com/test/test-repo',
-      language: 'TypeScript',
-      created_at: '2023-01-01T00:00:00Z',
-      fork: false,
-      owner: { login: 'vitorbarbo' },
-    },
-  ];
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [AboutComponent, TranslateModule.forRoot()],
-      providers: [provideHttpClient(), provideHttpClientTesting(), UserService],
+      providers: [provideHttpClient(), provideHttpClientTesting()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(AboutComponent);
     component = fixture.componentInstance;
-    userService = TestBed.inject(UserService);
     translateService = TestBed.inject(TranslateService);
     translateService.setDefaultLang('en');
     translateService.use('en');
@@ -48,14 +31,13 @@ describe('AboutComponent', () => {
   });
 
   it('should set active tab', () => {
-    component.setActiveTab('projects');
-    expect(component.activeTab()).toBe('projects');
+    component.setActiveTab('contact');
+    expect(component.activeTab()).toBe('contact');
   });
 
-  it('should fetch and map repositories on init', () => {
-    jest.spyOn(userService, 'fetchGitRepos').mockReturnValue(of(mockRepos as any));
-    component.ngOnInit();
-    expect(userService.fetchGitRepos).toHaveBeenCalled();
-    expect(component.projects().length).toBe(1);
+  it('should expose the phone number as its own contact label', () => {
+    const phone = component.contactLinks.find((link) => link.href.startsWith('tel:'));
+    expect(phone?.label).toBe('+55 19 996637468');
+    expect(phone?.href).toBe('tel:+5519996637468');
   });
 });

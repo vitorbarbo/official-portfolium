@@ -1,4 +1,4 @@
-<section class="experience">
+<section class="experience" id="experience-section">
   <div class="experience__container">
     <h2 class="experience__title">{{ 'EXPERIENCE.TITLE' | translate }}</h2>
     <div class="experience__timeline">
@@ -7,18 +7,35 @@
           <div class="experience__timeline-dot"></div>
           <div class="experience__content">
             <div class="experience__header">
-              <h3 class="experience__role">{{ 'EXPERIENCE.COMPANIES.' + companyKeys[i] + '.ROLE' | translate }}</h3>
-              <a [href]="experience.companyUrl" [target]="experience.companyUrl ? '_blank' : null" class="experience__company">{{ experience.company }}</a>
-              <span class="experience__period">{{ 'EXPERIENCE.COMPANIES.' + companyKeys[i] + '.PERIOD' | translate }}</span>
+              <h3 class="experience__role">
+                {{ 'EXPERIENCE.COMPANIES.' + companyKeys[i] + '.ROLE' | translate }}
+              </h3>
+              <a
+                class="experience__company"
+                [attr.href]="experience.companyUrl || null"
+                [attr.target]="experience.companyUrl ? '_blank' : null"
+                [attr.rel]="experience.companyUrl ? 'noopener noreferrer' : null"
+                >{{ experience.company }}</a
+              >
+              <span class="experience__period">{{
+                'EXPERIENCE.COMPANIES.' + companyKeys[i] + '.PERIOD' | translate
+              }}</span>
             </div>
-            <p class="experience__location">{{ 'EXPERIENCE.COMPANIES.' + companyKeys[i] + '.LOCATION' | translate }}</p>
+            <p class="experience__location">
+              {{ 'EXPERIENCE.COMPANIES.' + companyKeys[i] + '.LOCATION' | translate }}
+            </p>
             <ul class="experience__achievements">
-              @for (achievement of getAchievements(companyKeys[i]); track trackByAchievement($index, achievement)) {
+              @for (
+                achievement of getAchievements(companyKeys[i]);
+                track trackByAchievement($index, achievement)
+              ) {
                 <li class="experience__achievement">{{ achievement }}</li>
               }
             </ul>
             <div class="experience__technologies">
-              <span class="experience__technologies-label">{{ 'EXPERIENCE.TECHNOLOGIES_LABEL' | translate }}</span>
+              <span class="experience__technologies-label">{{
+                'EXPERIENCE.TECHNOLOGIES_LABEL' | translate
+              }}</span>
               @for (tech of experience.technologies; track trackByTech($index, tech)) {
                 <span class="experience__tech-badge">{{ tech }}</span>
               }

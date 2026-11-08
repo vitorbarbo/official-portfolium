@@ -1,4 +1,12 @@
 {
+  "NAV": {
+    "SKIP": "Skip to content",
+    "ABOUT": "About",
+    "WORK": "Work",
+    "EXPERIENCE": "Experience",
+    "SKILLS": "Skills",
+    "CONTACT": "Contact"
+  },
   "HERO": {
     "NAME": "Vitor Duarte Barbosa",
     "TITLE": "Senior Angular Software Engineer",
@@ -9,7 +17,13 @@
       "CLIENT_APPS": "Client Apps",
       "COUNTRIES": "Countries"
     },
-    "KNOW_ABOUT_ME": "Know more"
+    "KNOW_ABOUT_ME": "Know more",
+    "PHONE": "+55 19 996637468",
+    "EMAIL": "Email",
+    "LINKEDIN": "LinkedIn",
+    "GITHUB": "GitHub",
+    "CV_PT": "Download CV (PT)",
+    "CV_EN": "Download CV (EN)"
   },
   "ABOUT": {
     "TABS": {
@@ -19,7 +33,19 @@
       "CONTACT": "Contact"
     },
     "TITLE": "Senior Angular Software Engineer",
-    "SUMMARY": "I'm a Senior Front-End Engineer with 8+ years' experience in Angular (modern versions & AngularJS) and TypeScript, building scalable, responsive applications for companies around the Globe. I currently work as a Senior Software Engineer on a B2B SaaS product in adtech — Angular 17–20, dashboards, tracking and checkout integrations.",
+    "SUMMARY": "With 8+ years of experience building fast, scalable, and user-focused web applications, I have collaborated with companies in Brazil, China, Argentina, and Colombia to turn complex ideas into robust digital products.",
+    "BODY": {
+      "P1": "With <strong>8+ years</strong> of experience building fast, scalable, and user-focused web applications, I have collaborated with companies in <strong>Brazil, China, Argentina, and Colombia</strong> to turn complex ideas into robust digital products.",
+      "P2": "I currently work as a <strong>Senior Software Engineer</strong> on a B2B SaaS product in <strong>adtech</strong> (digital marketing) — <strong>Angular 17–20</strong>, TypeScript, dashboards, tracking, checkout flows, and integrations with ad networks and payment platforms.",
+      "P3": "At my current role, I migrated a production Angular app from <strong>v17 to v20</strong> (standalone, OnPush, i18n), shipped client-facing admin, financial and sales dashboards, conversion and tracking pixels, SSO, and S2S/CAPI integrations (such as Google, Meta, TikTok), and closed <strong>200+ sprint and support tickets</strong> from the UI down to APIs and queues.",
+      "P4": "At <strong>QIMA</strong>, I was a key contributor to global, high-profile projects in AngularJS and modern Angular, architecting scalable structures, improving maintainability, and integrating mission-critical APIs used by <strong>thousands of daily users</strong>. I also led bi-weekly executive demos, aligning technical strategy with corporate vision in high-demand environments.",
+      "P5": "At <strong>Hausz</strong>, I single-handedly designed and developed a complete freight integration Angular platform handling <strong>5,000+ shipments per month</strong>, from requirements gathering to responsive design, API integration for rate calculation and tracking, and performance optimization that cut load times by <strong>40%</strong>, using the framework's best approaches.",
+      "P6": "In companies such as <strong>BairesDev</strong> and <strong>Ontop</strong>, I worked with multicultural Agile/Scrum teams, creating reusable components, enhancing UX/UI, and delivering tangible business impact across international projects."
+    },
+    "SKILLS_LABEL": "Key Skills",
+    "SKILLS_LINE": "Angular (14–current) · TypeScript · JavaScript (ES6+) · RxJS · Signals · NgRx/Redux · HTML5 · CSS3 · SCSS · Responsive Design · REST API Integration · Jest · Git/GitHub/GitLab · Agile/Scrum · Global Stakeholder Communication",
+    "GOAL_LABEL": "Goal",
+    "GOAL": "Join a global, remote (or remote-first) team as a <strong>Senior Angular Frontend Engineer / Frontend Techlead</strong> and keep delivering scalable, high-impact products.",
     "KEY_ACHIEVEMENTS": "Key Achievements",
     "ACHIEVEMENTS": {
       "ENHANCED_CODE_EFFICIENCY": {
@@ -42,7 +68,7 @@
     "AVAILABILITY": {
       "AVAILABLE": "Available for Opportunities",
       "BUSY": "Currently Busy",
-      "MESSAGE": "I'm open to new challenges and exciting projects. Let's build something amazing together!"
+      "MESSAGE": "Open to senior Angular roles, CLT or PJ, remote Brazil."
     },
     "PROJECTS": {
       "TITLE": "My Public Projects",
@@ -131,7 +157,7 @@
       },
       "ONTOP": {
         "ROLE": "Angular Developer",
-        "PERIOD": "Jul 2022 - Set 2022",
+        "PERIOD": "Jul 2022 - Sep 2022",
         "LOCATION": "Colombia · Remote",
         "ACHIEVEMENTS": [
           "Contributed to a major IT project in Angular + SCSS + TypeScript across three core environments.",
@@ -142,7 +168,7 @@
       },
       "HAUSZ": {
         "ROLE": "Front End Developer",
-        "PERIOD": "Mai 2021 - Jul 2022",
+        "PERIOD": "May 2021 - Jul 2022",
         "LOCATION": "Campinas, São Paulo - Brazil",
         "ACHIEVEMENTS": [
           "Solely built from scratch a freight integration platform processing 5K+ shipments/month, handling requirements gathering, front-end architecture, responsive UI, and API integrations for rate calculation and tracking.",
@@ -153,7 +179,7 @@
       },
       "PDCA": {
         "ROLE": "IT Support / Developer",
-        "PERIOD": "Ago 2018 - Mai 2021",
+        "PERIOD": "Aug 2018 - May 2021",
         "LOCATION": "Campinas, São Paulo - Brazil",
         "ACHIEVEMENTS": [
           "Delivered corporate websites and responsive landing pages using HTML, CSS, and JavaScript.",
@@ -165,6 +191,7 @@
   },
   "SKILLS": {
     "TITLE": "Skills & Tools",
+    "YEAR": "Year",
     "YEARS": "Years",
     "FILTER": {
       "ALL": "All",
@@ -178,7 +205,8 @@
       "TOOL": "Tool",
       "TESTING": "Testing",
       "CI_CD": "CI/CD",
-      "DESIGN": "Design"
+      "DESIGN": "Design",
+      "EXTENSION": "Extension"
     }
   },
   "LANGUAGES": {
@@ -196,5 +224,14 @@
       "ENGLISH": "English",
       "SPANISH": "Spanish"
     }
+  },
+  "WORK": {
+    "TITLE": "Selected work",
+    "INTRO": "The freight platform I built alone. The senior Angular roles that followed are in the timeline below.",
+    "FEATURED_KICKER": "The work I’m proud of",
+    "FEATURED_STAT": "5,000+",
+    "FEATURED_STAT_LABEL": "shipments a month",
+    "PRIVATE_NOTE": "Ratoeira, Ahoy and QIMA are private products. There is no public GitHub demo.",
+    "TIMELINE_NOTE": "Full write-up in Professional Experience."
   }
 }

@@ -32,7 +32,7 @@ describe('SkillsComponent', () => {
   });
 
   it('should filter skills by category', () => {
-    component.currentFilter.set('Frontend');
+    component.currentFilter.set('category');
     const frontendSkills = component.skills();
     expect(frontendSkills.length).toBeGreaterThan(0);
   });

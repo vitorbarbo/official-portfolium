@@ -1,4 +1,12 @@
 {
+  "NAV": {
+    "SKIP": "跳到正文",
+    "ABOUT": "关于",
+    "WORK": "作品",
+    "EXPERIENCE": "经历",
+    "SKILLS": "技能",
+    "CONTACT": "联系"
+  },
   "HERO": {
     "NAME": "Vitor Duarte Barbosa",
     "TITLE": "高级 Angular 软件工程师",
@@ -9,7 +17,13 @@
       "CLIENT_APPS": "客户应用",
       "COUNTRIES": "国家"
     },
-    "KNOW_ABOUT_ME": "了解更多"
+    "KNOW_ABOUT_ME": "了解更多",
+    "PHONE": "+55 19 996637468",
+    "EMAIL": "邮箱",
+    "LINKEDIN": "LinkedIn",
+    "GITHUB": "GitHub",
+    "CV_PT": "下载简历（葡语）",
+    "CV_EN": "下载简历（英语）"
   },
   "ABOUT": {
     "TABS": {
@@ -19,7 +33,19 @@
       "CONTACT": "联系方式"
     },
     "TITLE": "高级 Angular 软件工程师",
-    "SUMMARY": "我是一名高级前端工程师，拥有 8 年以上的 Angular（现代版本和 AngularJS）和 TypeScript 经验，为全球各地的公司构建可扩展、响应式的应用程序。目前担任 B2B adtech SaaS 的高级软件工程师 — Angular 17–20、仪表板、tracking 与结账集成。",
+    "SUMMARY": "拥有 8+ 年构建快速、可扩展、以用户为中心的 Web 应用经验，我曾与巴西、中国、阿根廷和哥伦比亚的公司合作，将复杂想法落地为稳健的数字产品。",
+    "BODY": {
+      "P1": "拥有 <strong>8+ 年</strong>构建快速、可扩展、以用户为中心的 Web 应用经验，我曾与<strong>巴西、中国、阿根廷和哥伦比亚</strong>的公司合作，将复杂想法落地为稳健的数字产品。",
+      "P2": "目前担任 <strong>adtech</strong>（数字营销）B2B SaaS 的 <strong>Senior Software Engineer</strong> — <strong>Angular 17–20</strong>、TypeScript、仪表板、tracking、结账流程，以及广告网络与支付平台集成。",
+      "P3": "在当前岗位，我将生产环境的 Angular 应用从 <strong>v17 升级到 v20</strong>（standalone、OnPush、i18n），交付面向客户的管理、财务与销售仪表板、转化与 tracking pixel、SSO，以及 S2S/CAPI 集成（如 Google、Meta、TikTok），并从 UI 到 API 与队列关闭了 <strong>200+ sprint 与支持工单</strong>。",
+      "P4": "在 <strong>QIMA</strong>，我是全球高规格项目的核心贡献者，覆盖 AngularJS 与现代 Angular，设计可扩展结构、提升可维护性，并集成供<strong>数千名日活用户</strong>使用的关键 API。我还主持双周高管演示，在高压环境中对齐技术策略与公司愿景。",
+      "P5": "在 <strong>Hausz</strong>，我独立设计并开发了一套完整的 Angular 货运集成平台，处理 <strong>每月 5,000+ 票运单</strong>，覆盖需求调研、响应式设计、运费计算与 tracking 的 API 集成，以及将加载时间降低 <strong>40%</strong> 的性能优化，并采用框架最佳实践。",
+      "P6": "在 <strong>BairesDev</strong> 和 <strong>Ontop</strong> 等公司，我与多元文化的 Agile/Scrum 团队合作，构建可复用组件、提升 UX/UI，并在国际项目中交付可衡量的业务影响。"
+    },
+    "SKILLS_LABEL": "关键技能",
+    "SKILLS_LINE": "Angular（14–至今）· TypeScript · JavaScript（ES6+）· RxJS · Signals · NgRx/Redux · HTML5 · CSS3 · SCSS · 响应式设计 · REST API 集成 · Jest · Git/GitHub/GitLab · Agile/Scrum · 全球利益相关方沟通",
+    "GOAL_LABEL": "目标",
+    "GOAL": "加入全球化、远程（或 remote-first）团队，担任 <strong>Senior Angular Frontend Engineer / Frontend Techlead</strong>，持续交付可扩展、高影响力的产品。",
     "KEY_ACHIEVEMENTS": "主要成就",
     "ACHIEVEMENTS": {
       "ENHANCED_CODE_EFFICIENCY": {
@@ -42,7 +68,7 @@
     "AVAILABILITY": {
       "AVAILABLE": "可接受机会",
       "BUSY": "目前忙碌",
-      "MESSAGE": "我乐于接受新的挑战和令人兴奋的项目。让我们一起构建一些令人惊叹的东西！"
+      "MESSAGE": "开放高级 Angular 职位，CLT 或 PJ，巴西远程。"
     },
     "PROJECTS": {
       "TITLE": "我的公共项目",
@@ -165,6 +191,7 @@
   },
   "SKILLS": {
     "TITLE": "技能和工具",
+    "YEAR": "年",
     "YEARS": "年",
     "FILTER": {
       "ALL": "全部",
@@ -178,7 +205,8 @@
       "TOOL": "工具",
       "TESTING": "测试",
       "CI_CD": "CI/CD",
-      "DESIGN": "设计"
+      "DESIGN": "设计",
+      "EXTENSION": "扩展"
     }
   },
   "LANGUAGES": {
@@ -196,5 +224,14 @@
       "ENGLISH": "英语",
       "SPANISH": "西班牙语"
     }
+  },
+  "WORK": {
+    "TITLE": "精选工作",
+    "INTRO": "我独立完成的货运平台。之后的高级 Angular 岗位写在下方时间线里。",
+    "FEATURED_KICKER": "最让我自豪的作品",
+    "FEATURED_STAT": "5,000+",
+    "FEATURED_STAT_LABEL": "每月货运量",
+    "PRIVATE_NOTE": "Ratoeira、Ahoy 和 QIMA 为私有产品，没有公开的 GitHub demo。",
+    "TIMELINE_NOTE": "完整叙述见专业经历。"
   }
 }

@@ -1,0 +1,46 @@
+<section class="work" id="work-section">
+  <div class="work__container">
+    <h2 class="work__title">{{ 'WORK.TITLE' | translate }}</h2>
+    <p class="work__intro">{{ 'WORK.INTRO' | translate }}</p>
+
+    <article class="work__featured">
+      <div class="work__featured-layout">
+        <div class="work__billboard">
+          <p class="work__featured-kicker">{{ 'WORK.FEATURED_KICKER' | translate }}</p>
+          <p class="work__stat">
+            <span class="work__stat-number">{{ 'WORK.FEATURED_STAT' | translate }}</span>
+            <span class="work__stat-label">{{ 'WORK.FEATURED_STAT_LABEL' | translate }}</span>
+          </p>
+        </div>
+        <div class="work__featured-copy">
+          <p class="work__company">{{ companyNames[featuredKey] }}</p>
+          <h3 class="work__featured-title">{{ 'EXPERIENCE.COMPANIES.HAUSZ.ROLE' | translate }}</h3>
+          <p class="work__meta">
+            <span>{{ 'EXPERIENCE.COMPANIES.HAUSZ.PERIOD' | translate }}</span>
+            <span>{{ 'EXPERIENCE.COMPANIES.HAUSZ.LOCATION' | translate }}</span>
+          </p>
+          <ul class="work__achievements">
+            @for (achievement of getAchievements(featuredKey); track achievement) {
+              <li>{{ achievement }}</li>
+            }
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <p class="work__note">{{ 'WORK.PRIVATE_NOTE' | translate }}</p>
+    <div class="work__grid">
+      @for (key of companyKeys; track key) {
+        <article class="work__card">
+          <p class="work__company">{{ companyNames[key] }}</p>
+          <h3 class="work__role">{{ 'EXPERIENCE.COMPANIES.' + key + '.ROLE' | translate }}</h3>
+          <p class="work__meta">
+            <span>{{ 'EXPERIENCE.COMPANIES.' + key + '.PERIOD' | translate }}</span>
+            <span>{{ 'EXPERIENCE.COMPANIES.' + key + '.LOCATION' | translate }}</span>
+          </p>
+        </article>
+      }
+    </div>
+    <p class="work__timeline-note">{{ 'WORK.TIMELINE_NOTE' | translate }}</p>
+  </div>
+</section>

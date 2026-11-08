@@ -1,9 +1,29 @@
 <app-layout>
-  <main class="portfolio">
+  <main class="portfolio" id="main-content">
     <app-hero></app-hero>
     <app-about></app-about>
+    <app-work></app-work>
     <app-experience></app-experience>
     <app-skills></app-skills>
     <app-languages></app-languages>
+    <footer class="site-footer" id="contact-section">
+      <p class="site-footer__kicker">{{ 'ABOUT.AVAILABILITY.AVAILABLE' | translate }}</p>
+      <h2 class="site-footer__title">{{ 'NAV.CONTACT' | translate }}</h2>
+      <p class="site-footer__lede">{{ 'ABOUT.AVAILABILITY.MESSAGE' | translate }}</p>
+      <div class="site-footer__links">
+        @for (link of contactLinks; track link.href) {
+          <a
+            class="site-footer__link"
+            [href]="link.href"
+            [target]="link.external ? '_blank' : null"
+            [rel]="link.external ? 'noopener noreferrer' : null"
+          >
+            {{ link.label }}
+          </a>
+        }
+        <a class="site-footer__link" [href]="cvPortugueseUrl">{{ 'HERO.CV_PT' | translate }}</a>
+        <a class="site-footer__link" [href]="cvEnglishUrl">{{ 'HERO.CV_EN' | translate }}</a>
+      </div>
+    </footer>
   </main>
 </app-layout>

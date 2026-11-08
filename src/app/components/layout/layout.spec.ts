@@ -27,7 +27,7 @@ describe('Layout', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should have codeLines array', () => {
-    expect(component.codeLines.length).toBeGreaterThan(0);
+  it('should expose primary nav items', () => {
+    expect(component.navItems.length).toBeGreaterThan(0);
   });
 });
