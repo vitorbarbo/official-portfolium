@@ -40,10 +40,11 @@
       "P3": "在当前岗位，我将生产环境的 Angular 应用从 <strong>v17 升级到 v20</strong>（standalone、OnPush、i18n），交付面向客户的管理、财务与销售仪表板、转化与 tracking pixel、SSO，以及 S2S/CAPI 集成（如 Google、Meta、TikTok），并从 UI 到 API 与队列关闭了 <strong>200+ sprint 与支持工单</strong>。",
       "P4": "在 <strong>QIMA</strong>，我是全球高规格项目的核心贡献者，覆盖 AngularJS 与现代 Angular，设计可扩展结构、提升可维护性，并集成供<strong>数千名日活用户</strong>使用的关键 API。我还主持双周高管演示，在高压环境中对齐技术策略与公司愿景。",
       "P5": "在 <strong>Hausz</strong>，我独立设计并开发了一套完整的 Angular 货运集成平台，处理 <strong>每月 5,000+ 票运单</strong>，覆盖需求调研、响应式设计、运费计算与 tracking 的 API 集成，以及将加载时间降低 <strong>40%</strong> 的性能优化，并采用框架最佳实践。",
-      "P6": "在 <strong>BairesDev</strong> 和 <strong>Ontop</strong> 等公司，我与多元文化的 Agile/Scrum 团队合作，构建可复用组件、提升 UX/UI，并在国际项目中交付可衡量的业务影响。"
+      "P6": "在 <strong>BairesDev</strong> 和 <strong>Ontop</strong> 等公司，我与多元文化的 Agile/Scrum 团队合作，构建可复用组件、提升 UX/UI，并在国际项目中交付可衡量的业务影响。",
+      "P7": "我日常使用<strong>AI 辅助开发</strong>（<strong>Cursor Agents</strong>、<strong>Claude</strong>、<strong>GPT</strong>）加速实现、重构与代码评审，始终保留人工审阅并以代码质量为准。"
     },
     "SKILLS_LABEL": "关键技能",
-    "SKILLS_LINE": "Angular（14–至今）· TypeScript · JavaScript（ES6+）· RxJS · Signals · NgRx/Redux · HTML5 · CSS3 · SCSS · 响应式设计 · REST API 集成 · Jest · Git/GitHub/GitLab · Agile/Scrum · 全球利益相关方沟通",
+    "SKILLS_LINE": "Angular（14–至今）· TypeScript · JavaScript（ES6+）· RxJS · Signals · NgRx/Redux · HTML5 · CSS3 · SCSS · 响应式设计 · REST API 集成 · Jest · Git/GitHub/GitLab · Cursor (Agents) · Claude · ChatGPT/GPT · Prompt engineering · Agile/Scrum · 全球利益相关方沟通",
     "GOAL_LABEL": "目标",
     "GOAL": "加入全球化、远程（或 remote-first）团队，担任 <strong>Senior Angular Frontend Engineer / Frontend Techlead</strong>，持续交付可扩展、高影响力的产品。",
     "KEY_ACHIEVEMENTS": "主要成就",
@@ -119,7 +120,8 @@
           "将主 Angular 应用从 v17 迁移到 v20，并统一 tracker、API、队列和 tracking script 的技术栈（standalone、OnPush、i18n、Husky）。",
           "构建广告网络和结账集成（如 Google、Meta 和 TikTok）以及支付平台，包括 S2S webhook、CAPI 事件和转化归因。",
           "交付客户日常使用的产品：Hub SSO、后台、财务与销售仪表板、转化/tracking 像素、广告管理器和按套餐限制。",
-          "关闭 200+ 个 sprint 和支持工单，覆盖时区、货币、转化和面向客户的缺陷，从前端到 API 与队列。"
+          "关闭 200+ 个 sprint 和支持工单，覆盖时区、货币、转化和面向客户的缺陷，从前端到 API 与队列。",
+          "主要使用 LLM（Claude、GPT）和 Cursor Agents 交付并集成 Node.js 后端功能（API 与队列），合并前逐一审阅变更。"
         ]
       },
       "AHOY": {
@@ -142,7 +144,8 @@
           "在 AngularJS 遗留与现代 Angular 应用中担任核心贡献者，构建可扩展方案并交付数千名日活用户使用的关键功能。",
           "设计和优化组件架构，将可维护性提高 35%，同时确保跨平台的技术卓越。",
           "交付与关键 API 的复杂集成，自动化工作流程并在国际范围内提高运营速度。",
-          "在双周会议中直接向执行董事展示新功能和项目结果，在高压环境中推动战略一致性。"
+          "在双周会议中直接向执行董事展示新功能和项目结果，在高压环境中推动战略一致性。",
+          "也使用 AI 工具与后端协作交付功能，并参与 Java 服务相关工作。"
         ]
       },
       "BAIRESDEV": {

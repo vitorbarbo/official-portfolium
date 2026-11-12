@@ -73,6 +73,9 @@ export class SkillsComponent {
     { name: 'GitLab', path: 'assets/images/gitlab-icon.svg', years: 2, category: 'tool' },
     { name: 'Node.js', path: 'assets/images/nodejs-icon.svg', years: 1, category: 'framework' },
     { name: 'Java', path: 'assets/images/java-icon.svg', years: 1, category: 'language' },
+    { name: 'Cursor', path: 'assets/images/cursor-icon.svg', years: 1, category: 'tool' },
+    { name: 'Claude', path: 'assets/images/claude-icon.svg', years: 1, category: 'tool' },
+    { name: 'ChatGPT', path: 'assets/images/chatgpt-icon.svg', years: 1, category: 'tool' },
   ];
 
   readonly currentFilter = signal<FilterOption>('none');

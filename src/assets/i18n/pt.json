@@ -40,10 +40,11 @@
       "P3": "Na função atual, migrei um app Angular em produção de <strong>v17 para v20</strong> (standalone, OnPush, i18n), entreguei dashboards admin, financeiro e comercial usados pelos clientes, pixels de conversão e tracking, SSO e integrações S2S/CAPI (como Google, Meta e TikTok), e fechei <strong>200+ tickets</strong> de sprint e suporte da UI até as APIs e filas.",
       "P4": "Na <strong>QIMA</strong>, fui contribuidor-chave em projetos globais de alto perfil em AngularJS e Angular moderno, arquitetando estruturas escaláveis, melhorando a manutenibilidade e integrando APIs críticas usadas por <strong>milhares de usuários diários</strong>. Também liderei demos executivas quinzenais, alinhando estratégia técnica à visão corporativa em ambientes de alta demanda.",
       "P5": "Na <strong>Hausz</strong>, projetei e desenvolvi sozinho uma plataforma Angular completa de integração de fretes com <strong>5.000+ envios por mês</strong>, do levantamento de requisitos ao design responsivo, integração de APIs para cálculo de frete e tracking, e otimização de performance que reduziu o tempo de carga em <strong>40%</strong>, usando as melhores práticas do framework.",
-      "P6": "Em empresas como <strong>BairesDev</strong> e <strong>Ontop</strong>, trabalhei com times Agile/Scrum multiculturais, criando componentes reutilizáveis, melhorando UX/UI e gerando impacto de negócio em projetos internacionais."
+      "P6": "Em empresas como <strong>BairesDev</strong> e <strong>Ontop</strong>, trabalhei com times Agile/Scrum multiculturais, criando componentes reutilizáveis, melhorando UX/UI e gerando impacto de negócio em projetos internacionais.",
+      "P7": "Uso <strong>desenvolvimento assistido por IA</strong> no dia a dia (<strong>Cursor Agents</strong>, <strong>Claude</strong>, <strong>GPT</strong>) para acelerar implementação, refatoração e code review, sempre com revisão humana e foco em qualidade."
     },
     "SKILLS_LABEL": "Principais habilidades",
-    "SKILLS_LINE": "Angular (14–atual) · TypeScript · JavaScript (ES6+) · RxJS · Signals · NgRx/Redux · HTML5 · CSS3 · SCSS · Responsive Design · Integração REST API · Jest · Git/GitHub/GitLab · Agile/Scrum · Comunicação com stakeholders globais",
+    "SKILLS_LINE": "Angular (14–atual) · TypeScript · JavaScript (ES6+) · RxJS · Signals · NgRx/Redux · HTML5 · CSS3 · SCSS · Responsive Design · Integração REST API · Jest · Git/GitHub/GitLab · Cursor (Agents) · Claude · ChatGPT/GPT · Engenharia de prompt · Agile/Scrum · Comunicação com stakeholders globais",
     "GOAL_LABEL": "Objetivo",
     "GOAL": "Ingressar em um time global, remoto (ou remote-first), como <strong>Senior Angular Frontend Engineer / Frontend Techlead</strong> e continuar entregando produtos escaláveis de alto impacto.",
     "KEY_ACHIEVEMENTS": "Principais Conquistas",
@@ -119,7 +120,8 @@
           "Migrei o app Angular principal da v17 para a v20 e alinhei o stack (standalone, OnPush, i18n, Husky) no tracker, APIs, filas e script de tracking.",
           "Construí integrações de redes de anúncios e checkout (como Google, Meta e TikTok) e plataformas de pagamento, incluindo webhooks S2S, eventos CAPI e atribuição de conversão.",
           "Entreguei o produto que os clientes usam no dia a dia: Hub SSO, admin, dashboards financeiro e de vendas, pixels de conversão e tracking, gerenciador de anúncios e limites por plano.",
-          "Fechei 200+ tickets de sprint e suporte sobre fuso horário, moeda, conversões e bugs visíveis ao cliente, da UI até as APIs e filas."
+          "Fechei 200+ tickets de sprint e suporte sobre fuso horário, moeda, conversões e bugs visíveis ao cliente, da UI até as APIs e filas.",
+          "Usei LLMs (Claude, GPT) e Cursor Agents principalmente para entregar e integrar features com o back-end em Node.js (APIs e filas), revisando cada mudança antes do merge."
         ]
       },
       "AHOY": {
@@ -142,7 +144,8 @@
           "Contribuidor-chave em apps AngularJS legado e Angular moderno, construindo soluções escaláveis e entregando features críticas usadas por milhares de usuários diários.",
           "Projetei e otimizei arquiteturas de componentes, aumentando a manutenibilidade e reduzindo retrabalho em 35%, garantindo excelência técnica em todas as plataformas.",
           "Entreguei integrações complexas com APIs críticas, automatizando fluxos de trabalho e melhorando a velocidade operacional em escala internacional.",
-          "Apresentei novas funcionalidades e resultados de projetos diretamente para diretores executivos em sessões quinzenais, promovendo alinhamento estratégico em ambientes de alta pressão."
+          "Apresentei novas funcionalidades e resultados de projetos diretamente para diretores executivos em sessões quinzenais, promovendo alinhamento estratégico em ambientes de alta pressão.",
+          "Também usei ferramentas de IA para integrar e entregar features com o back-end, contribuindo em serviços Java."
         ]
       },
       "BAIRESDEV": {

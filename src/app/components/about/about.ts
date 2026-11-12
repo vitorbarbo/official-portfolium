@@ -29,6 +29,7 @@ export class AboutComponent {
     'ABOUT.BODY.P4',
     'ABOUT.BODY.P5',
     'ABOUT.BODY.P6',
+    'ABOUT.BODY.P7',
   ];
 
   readonly contactLinks = [
