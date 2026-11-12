@@ -62,6 +62,8 @@ export class ExperienceComponent implements OnInit {
         'AngularJS',
         'TypeScript',
         'JavaScript',
+        'Java',
+        'Spring Boot',
         'Jest',
         'Cypress',
         'CircleCI',
