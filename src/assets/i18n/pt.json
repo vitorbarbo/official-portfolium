@@ -36,15 +36,15 @@
     "SUMMARY": "Com 8+ anos de experiência construindo aplicações web rápidas, escaláveis e centradas no usuário, colaborei com empresas no Brasil, China, Argentina e Colômbia para transformar ideias complexas em produtos digitais robustos.",
     "BODY": {
       "P1": "Com <strong>8+ anos</strong> de experiência construindo aplicações web rápidas, escaláveis e centradas no usuário, colaborei com empresas no <strong>Brasil, China, Argentina e Colômbia</strong> para transformar ideias complexas em produtos digitais robustos.",
-      "P2": "Atualmente atuo como <strong>Senior Software Engineer</strong> em um produto SaaS B2B de <strong>adtech</strong> (marketing digital) — <strong>Angular 17–20</strong>, TypeScript, dashboards, tracking, fluxos de checkout e integrações com redes de anúncios e plataformas de pagamento.",
+      "P2": "Atualmente atuo como <strong>Senior Software Engineer</strong> em um produto SaaS B2B de <strong>adtech</strong> (marketing digital) — <strong>Angular 17–20</strong>, TypeScript, dashboards, tracking, fluxos de checkout e integrações com redes de anúncios e plataformas de pagamento (como <strong>Stripe</strong>).",
       "P3": "Na função atual, migrei um app Angular em produção de <strong>v17 para v20</strong> (standalone, OnPush, i18n), entreguei dashboards admin, financeiro e comercial usados pelos clientes, pixels de conversão e tracking, SSO e integrações S2S/CAPI (como Google, Meta e TikTok), e fechei <strong>200+ tickets</strong> de sprint e suporte da UI até as APIs e filas.",
-      "P4": "Na <strong>QIMA</strong>, fui contribuidor-chave em projetos globais de alto perfil em AngularJS e Angular moderno, arquitetando estruturas escaláveis, melhorando a manutenibilidade e integrando APIs críticas usadas por <strong>milhares de usuários diários</strong>. Também liderei demos executivas quinzenais, alinhando estratégia técnica à visão corporativa em ambientes de alta demanda.",
+      "P4": "Na <strong>QIMA</strong>, fui contribuidor-chave em apps AngularJS legado e Angular moderno, construindo soluções escaláveis e integrando APIs alinhadas à operação real do negócio. Apresentei features a diretores executivos, contribui para a biblioteca de componentes da QIMA e também usei ferramentas de IA com serviços <strong>Java (Spring Boot)</strong>.",
       "P5": "Na <strong>Hausz</strong>, projetei e desenvolvi sozinho uma plataforma Angular completa de integração de fretes com <strong>5.000+ envios por mês</strong>, do levantamento de requisitos ao design responsivo, integração de APIs para cálculo de frete e tracking, e otimização de performance que reduziu o tempo de carga em <strong>40%</strong>, usando as melhores práticas do framework.",
       "P6": "Em empresas como <strong>BairesDev</strong> e <strong>Ontop</strong>, trabalhei com times Agile/Scrum multiculturais, criando componentes reutilizáveis, melhorando UX/UI e gerando impacto de negócio em projetos internacionais.",
       "P7": "Uso <strong>desenvolvimento assistido por IA</strong> no dia a dia (<strong>Cursor Agents</strong>, <strong>Claude</strong>, <strong>GPT</strong>) para acelerar implementação, refatoração e code review, sempre com revisão humana e foco em qualidade."
     },
     "SKILLS_LABEL": "Principais habilidades",
-    "SKILLS_LINE": "Angular (14–atual) · TypeScript · JavaScript (ES6+) · RxJS · Signals · NgRx/Redux · HTML5 · CSS3 · SCSS · Responsive Design · Integração REST API · Jest · Git/GitHub/GitLab · Cursor (Agents) · Claude · ChatGPT/GPT · Engenharia de prompt · Agile/Scrum · Comunicação com stakeholders globais",
+    "SKILLS_LINE": "Front-End: Angular (14+, até v20), AngularJS, TypeScript, JavaScript (ES6+), RxJS, Signals, Standalone Components, Lazy Loading, HTML5, CSS3, SCSS, Angular Material, Design Responsivo · Back-End e Integrações: Node.js, Java, Spring Boot, REST APIs, SQL, ClickHouse, Webhooks, S2S, Filas de Mensagens · Autenticação e Segurança: Keycloak, SSO, JWT, HTTP Interceptors, Route Guards · Testes e Qualidade: Jest, Cypress, Playwright, Testes Unitários, Testes E2E, ESLint, Prettier, Husky, Code Review · DevOps e Ferramentas: Git, GitHub, GitLab, Jenkins, Docker, Nginx, DigitalOcean, CI/CD · Metodologias: Agile, Scrum, Clean Architecture · Ferramentas de IA: Cursor (Agents), Claude, ChatGPT/GPT, Engenharia de Prompt · Soft Skills: Comunicação, Trabalho em equipe, Gestão de stakeholders",
     "GOAL_LABEL": "Objetivo",
     "GOAL": "Ingressar em um time global, remoto (ou remote-first), como <strong>Senior Angular Frontend Engineer / Frontend Techlead</strong> e continuar entregando produtos escaláveis de alto impacto.",
     "KEY_ACHIEVEMENTS": "Principais Conquistas",
@@ -117,9 +117,9 @@
         "PERIOD": "Mai 2026 - Atual",
         "LOCATION": "Campinas, São Paulo - Brasil · Remoto",
         "ACHIEVEMENTS": [
-          "Migrei o app Angular principal da v17 para a v20 e alinhei o stack (standalone, OnPush, i18n, Husky) no tracker, APIs, filas e script de tracking.",
-          "Construí integrações de redes de anúncios e checkout (como Google, Meta e TikTok) e plataformas de pagamento, incluindo webhooks S2S, eventos CAPI e atribuição de conversão.",
-          "Entreguei o produto que os clientes usam no dia a dia: Hub SSO, admin, dashboards financeiro e de vendas, pixels de conversão e tracking, gerenciador de anúncios e limites por plano.",
+          "Migrei o app Angular da v17 para a v20 e trouxe mais consistência ao stack (standalone, OnPush, i18n, Husky) no tracker, APIs, filas e script de tracking.",
+          "Construí integrações de redes de anúncios e checkout (como Google, Meta e TikTok) e plataformas de pagamento (como Stripe), incluindo webhooks S2S, eventos CAPI e atribuição de conversão.",
+          "Trabalhei no produto que os clientes usam no dia a dia: Hub SSO, admin, dashboards financeiro e de vendas, pixels de conversão e tracking, gerenciador de anúncios e limites por plano.",
           "Fechei 200+ tickets de sprint e suporte sobre fuso horário, moeda, conversões e bugs visíveis ao cliente, da UI até as APIs e filas.",
           "Usei LLMs (Claude, GPT) e Cursor Agents principalmente para entregar e integrar features com o back-end em Node.js (APIs e filas), revisando cada mudança antes do merge."
         ]
@@ -131,7 +131,7 @@
         "ACHIEVEMENTS": [
           "Arquitetei / liderei o desenvolvimento do portal do cliente do zero (Angular 20, TypeScript, Material).",
           "Integrei SSO Keycloak com JWT: guards, interceptor HTTP para Bearer tokens, acesso por papéis.",
-          "Entreguei módulos de admin como standalone components: CRUD, exportação PDF/Excel, tabelas reutilizáveis, filtros e formulários reativos complexos.",
+          "Entreguei módulos de admin como standalone components: CRUD, exportação PDF/Excel, tabelas reutilizáveis, filtros e componentes, formulários reativos complexos.",
           "Desenhei a arquitetura: standalone components, Signals, OnPush, rotas lazy-loaded, config por ambiente.",
           "Estabeleci padrões: Docker, Nginx, Jest, ESLint/Prettier, Husky, guidelines documentadas."
         ]
@@ -141,10 +141,11 @@
         "PERIOD": "Mar 2023 - Dez 2025",
         "LOCATION": "China · Remoto",
         "ACHIEVEMENTS": [
-          "Contribuidor-chave em apps AngularJS legado e Angular moderno, construindo soluções escaláveis e entregando features críticas usadas por milhares de usuários diários.",
-          "Projetei e otimizei arquiteturas de componentes, aumentando a manutenibilidade e reduzindo retrabalho em 35%, garantindo excelência técnica em todas as plataformas.",
-          "Entreguei integrações complexas com APIs críticas, automatizando fluxos de trabalho e melhorando a velocidade operacional em escala internacional.",
-          "Apresentei novas funcionalidades e resultados de projetos diretamente para diretores executivos em sessões quinzenais, promovendo alinhamento estratégico em ambientes de alta pressão.",
+          "Contribuidor-chave em apps AngularJS legado e Angular moderno. Usei a expertise no framework para construir soluções escaláveis e entregar features críticas.",
+          "Desenhei e melhorei arquiteturas de componentes, garantindo manutenibilidade e excelência técnica em plataformas globais.",
+          "Entreguei integrações complexas de API alinhadas à operação real do negócio.",
+          "Apresentei regularmente novas features de várias aplicações globais diretamente a diretores executivos, alinhando estratégia técnica e objetivos corporativos em ambientes de alta pressão.",
+          "Contribuí para a biblioteca de componentes da QIMA, criando e aprimorando componentes Angular reutilizáveis adotados em vários projetos globais.",
           "Também usei ferramentas de IA para integrar e entregar features com o back-end, contribuindo em serviços Java (Spring Boot)."
         ]
       },
@@ -153,9 +154,9 @@
         "PERIOD": "Nov 2022 - Mar 2023",
         "LOCATION": "Buenos Aires - Argentina · Remoto",
         "ACHIEVEMENTS": [
-          "Construí componentes reutilizáveis e otimizei o desempenho de UI/UX em projetos Angular de grande escala, reduzindo o tempo de carregamento em 28%.",
-          "Colaborei com equipes internacionais para integrar APIs REST, garantindo entrega escalável e consistente.",
-          "Implementei arquitetura limpa e pipelines de entrega contínua, acelerando ciclos de implantação em 40% e minimizando erros de produção."
+          "Melhorei a performance de UI/UX em 75% otimizando componentes em 1 projeto Angular de alta escala.",
+          "Colaborei com times internacionais para integrar REST APIs e manter a escalabilidade.",
+          "Apliquei boas práticas, clean architecture e pipelines de entrega contínua para acelerar as entregas."
         ]
       },
       "ONTOP": {
@@ -163,31 +164,31 @@
         "PERIOD": "Jul 2022 - Set 2022",
         "LOCATION": "Colômbia · Remoto",
         "ACHIEVEMENTS": [
-          "Contribuí para um grande projeto de TI em Angular + SCSS + TypeScript em três ambientes principais.",
-          "Projetei componentes reutilizáveis e estruturas modulares robustas, reduzindo o tempo de desenvolvimento de novas funcionalidades em 25%.",
-          "Entreguei layouts responsivos e integrações de backend via REST, garantindo compatibilidade e alto desempenho em todos os dispositivos.",
-          "Realizei testes integrados e correção de bugs, reduzindo as taxas de erro de produção em 30%."
+          "Contribuí em um projeto de TI de grande porte em Angular, SCSS e TypeScript, em três ambientes principais.",
+          "Desenhei componentes web limpos e reutilizáveis, com estruturas de módulos sólidas.",
+          "Implementei layouts responsivos e integrações com o backend via REST.",
+          "Fiz testes integrados, correção de bugs e daily stand-ups para melhorar o fluxo e a performance do código."
         ]
       },
       "HAUSZ": {
-        "ROLE": "Desenvolvedor Front End",
+        "ROLE": "Desenvolvedor de Software",
         "PERIOD": "Mai 2021 - Jul 2022",
         "LOCATION": "Campinas, São Paulo - Brasil",
         "ACHIEVEMENTS": [
-          "Construí sozinho do zero uma plataforma de integração de frete processando mais de 5K envios/mês, lidando com levantamento de requisitos, arquitetura front-end, UI responsiva e integrações de API para cálculo e rastreamento de taxas.",
-          "Otimizei o desempenho da aplicação, reduzindo o tempo de carregamento em 40% e aumentando a eficiência operacional.",
-          "Desenvolvi landing pages semânticas e responsivas usando HTML, CSS, JavaScript e Angular.",
-          "Refatorei código legado, melhorei a documentação e conduzi sessões semanais de otimização de fluxo de trabalho, aumentando a produtividade da equipe em 40%."
+          "Único engenheiro front-end responsável por desenvolver do zero uma plataforma completa de integração de fretes, dos requisitos ao deploy.",
+          "Construí landing pages e sites responsivos e semânticos com HTML, CSS, JavaScript e Angular.",
+          "Integrei sistemas internos de gestão com APIs de backend para eficiência operacional.",
+          "Refatorei código legado, melhorei a documentação e conduzi sessões semanais de otimização de fluxo."
         ]
       },
       "PDCA": {
-        "ROLE": "Suporte de TI / Desenvolvedor",
+        "ROLE": "Desenvolvedor de Software Júnior / TI",
         "PERIOD": "Ago 2018 - Mai 2021",
         "LOCATION": "Campinas, São Paulo - Brasil",
         "ACHIEVEMENTS": [
-          "Entreguei sites corporativos e landing pages responsivas usando HTML, CSS e JavaScript.",
-          "Gerenciei repositórios GitHub, implementando otimizações que reduziram o tempo de carregamento de páginas em 25% e melhoraram a experiência do usuário.",
-          "Forneci suporte técnico contínuo, garantindo branding consistente e funcionalidade em todos os navegadores e dispositivos."
+          "Desenhei e publiquei websites, landing pages e layouts responsivos com HTML, CSS e JavaScript.",
+          "Aumentei a eficiência do código em 50% e melhorei a performance geral do repositório.",
+          "Prestei suporte técnico e garanti consistência de marca e funcionalidade."
         ]
       }
     }
