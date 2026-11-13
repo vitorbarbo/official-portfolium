@@ -79,7 +79,7 @@ export class SkillsComponent {
       years: 1,
       category: 'framework',
     },
-    { name: 'SQL', path: 'assets/images/sql-icon.svg', years: 1, category: 'language' },
+    { name: 'SQL', path: 'assets/images/sql-icon.svg', years: 3, category: 'language' },
     {
       name: 'ClickHouse',
       path: 'assets/images/clickhouse-icon.svg',
@@ -87,7 +87,6 @@ export class SkillsComponent {
       category: 'tool',
     },
     { name: 'Docker', path: 'assets/images/docker-icon.svg', years: 1, category: 'ci-cd' },
-    { name: 'Nginx', path: 'assets/images/nginx-icon.svg', years: 1, category: 'tool' },
     {
       name: 'DigitalOcean',
       path: 'assets/images/digitalocean-icon.svg',
@@ -98,7 +97,7 @@ export class SkillsComponent {
     {
       name: 'Angular Material',
       path: 'assets/images/angular-material-icon.svg',
-      years: 5,
+      years: 7,
       category: 'library',
     },
     {
@@ -108,9 +107,9 @@ export class SkillsComponent {
       category: 'testing',
     },
     { name: 'ESLint', path: 'assets/images/eslint-icon.svg', years: 5, category: 'extension' },
-    { name: 'Cursor', path: 'assets/images/cursor-icon.svg', years: 1, category: 'tool' },
+    { name: 'Cursor', path: 'assets/images/cursor-icon.svg', years: 3, category: 'tool' },
     { name: 'Claude', path: 'assets/images/claude-icon.svg', years: 1, category: 'tool' },
-    { name: 'ChatGPT', path: 'assets/images/chatgpt-icon.svg', years: 1, category: 'tool' },
+    { name: 'ChatGPT', path: 'assets/images/chatgpt-icon.svg', years: 4, category: 'tool' },
   ];
 
   readonly currentFilter = signal<FilterOption>('none');

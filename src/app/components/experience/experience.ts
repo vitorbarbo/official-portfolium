@@ -55,7 +55,6 @@ export class ExperienceComponent implements OnInit {
         'Keycloak',
         'JWT',
         'Docker',
-        'Nginx',
         'Jest',
         'ESLint',
         'Prettier',

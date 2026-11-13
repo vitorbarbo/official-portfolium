@@ -44,7 +44,7 @@
       "P7": "我日常使用<strong>AI 辅助开发</strong>（<strong>Cursor Agents</strong>、<strong>Claude</strong>、<strong>GPT</strong>）加速实现、重构与代码评审，始终保留人工审阅并以代码质量为准。"
     },
     "SKILLS_LABEL": "关键技能",
-    "SKILLS_LINE": "前端：Angular（14+，至 v20）、AngularJS、TypeScript、JavaScript（ES6+）、RxJS、Signals、Standalone Components、Lazy Loading、HTML5、CSS3、SCSS、Angular Material、响应式设计 · 后端与集成：Node.js、Java、Spring Boot、REST APIs、SQL、ClickHouse、Webhooks、S2S、消息队列 · 认证与安全：Keycloak、SSO、JWT、HTTP Interceptors、Route Guards · 测试与质量：Jest、Cypress、Playwright、单元测试、E2E 测试、ESLint、Prettier、Husky、Code Review · DevOps 与工具：Git、GitHub、GitLab、Jenkins、Docker、Nginx、DigitalOcean、CI/CD · 方法论：Agile、Scrum、Clean Architecture · AI 工具：Cursor (Agents)、Claude、ChatGPT/GPT、Prompt Engineering · 软技能：沟通、团队协作、利益相关方管理",
+    "SKILLS_LINE": "前端：Angular（14+，至 v20）、AngularJS、TypeScript、JavaScript（ES6+）、RxJS、Signals、Standalone Components、Lazy Loading、HTML5、CSS3、SCSS、Angular Material、响应式设计 · 后端与集成：Node.js、Java、Spring Boot、REST APIs、SQL、ClickHouse、Webhooks、S2S、消息队列 · 认证与安全：Keycloak、SSO、JWT、HTTP Interceptors、Route Guards · 测试与质量：Jest、Cypress、Playwright、单元测试、E2E 测试、ESLint、Prettier、Husky、Code Review · DevOps 与工具：Git、GitHub、GitLab、Jenkins、Docker、DigitalOcean、CI/CD · 方法论：Agile、Scrum、Clean Architecture · AI 工具：Cursor (Agents)、Claude、ChatGPT/GPT、Prompt Engineering · 软技能：沟通、团队协作、利益相关方管理",
     "GOAL_LABEL": "目标",
     "GOAL": "加入全球化、远程（或 remote-first）团队，担任 <strong>Senior Angular Frontend Engineer / Frontend Techlead</strong>，持续交付可扩展、高影响力的产品。",
     "KEY_ACHIEVEMENTS": "主要成就",
@@ -69,7 +69,7 @@
     "AVAILABILITY": {
       "AVAILABLE": "可接受机会",
       "BUSY": "目前忙碌",
-      "MESSAGE": "开放高级 Angular 职位，CLT 或 PJ，巴西远程。"
+      "MESSAGE": "开放高级 Angular 职位，CLT 或 PJ，巴西或 LATAM 远程。"
     },
     "PROJECTS": {
       "TITLE": "我的公共项目",

@@ -44,7 +44,7 @@
       "P7": "I use <strong>AI-assisted development</strong> daily (<strong>Cursor Agents</strong>, <strong>Claude</strong>, <strong>GPT</strong>) to speed up implementation, refactoring and code review, always keeping human review and code quality in the loop."
     },
     "SKILLS_LABEL": "Key Skills",
-    "SKILLS_LINE": "Front-End: Angular (14+, up to v20), AngularJS, TypeScript, JavaScript (ES6+), RxJS, Signals, Standalone Components, Lazy Loading, HTML5, CSS3, SCSS, Angular Material, Responsive Design · Back-End & Integrations: Node.js, Java, Spring Boot, REST APIs, SQL, ClickHouse, Webhooks, S2S, Message Queues · Auth & Security: Keycloak, SSO, JWT, HTTP Interceptors, Route Guards · Testing & Quality: Jest, Cypress, Playwright, Unit Testing, E2E Testing, ESLint, Prettier, Husky, Code Review · DevOps & Tools: Git, GitHub, GitLab, Jenkins, Docker, Nginx, DigitalOcean, CI/CD · Methodologies: Agile, Scrum, Clean Architecture · AI Tools: Cursor (Agents), Claude, ChatGPT/GPT, Prompt Engineering · Soft Skills: Communication, Teamwork, Stakeholder Management",
+    "SKILLS_LINE": "Front-End: Angular (14+, up to v20), AngularJS, TypeScript, JavaScript (ES6+), RxJS, Signals, Standalone Components, Lazy Loading, HTML5, CSS3, SCSS, Angular Material, Responsive Design · Back-End & Integrations: Node.js, Java, Spring Boot, REST APIs, SQL, ClickHouse, Webhooks, S2S, Message Queues · Auth & Security: Keycloak, SSO, JWT, HTTP Interceptors, Route Guards · Testing & Quality: Jest, Cypress, Playwright, Unit Testing, E2E Testing, ESLint, Prettier, Husky, Code Review · DevOps & Tools: Git, GitHub, GitLab, Jenkins, Docker, DigitalOcean, CI/CD · Methodologies: Agile, Scrum, Clean Architecture · AI Tools: Cursor (Agents), Claude, ChatGPT/GPT, Prompt Engineering · Soft Skills: Communication, Teamwork, Stakeholder Management",
     "GOAL_LABEL": "Goal",
     "GOAL": "Join a global, remote (or remote-first) team as a <strong>Senior Angular Frontend Engineer / Frontend Techlead</strong> and keep delivering scalable, high-impact products.",
     "KEY_ACHIEVEMENTS": "Key Achievements",
@@ -69,7 +69,7 @@
     "AVAILABILITY": {
       "AVAILABLE": "Available for Opportunities",
       "BUSY": "Currently Busy",
-      "MESSAGE": "Open to senior Angular roles, CLT or PJ, remote Brazil."
+      "MESSAGE": "Open to senior Angular roles, CLT or PJ, remote Brazil or LATAM."
     },
     "PROJECTS": {
       "TITLE": "My Public Projects",

@@ -44,7 +44,7 @@
       "P7": "Uso <strong>desarrollo asistido por IA</strong> a diario (<strong>Cursor Agents</strong>, <strong>Claude</strong>, <strong>GPT</strong>) para acelerar implementación, refactorización y code review, siempre con revisión humana y foco en calidad."
     },
     "SKILLS_LABEL": "Habilidades clave",
-    "SKILLS_LINE": "Front-End: Angular (14+, hasta v20), AngularJS, TypeScript, JavaScript (ES6+), RxJS, Signals, Standalone Components, Lazy Loading, HTML5, CSS3, SCSS, Angular Material, Diseño Responsivo · Back-End e Integraciones: Node.js, Java, Spring Boot, REST APIs, SQL, ClickHouse, Webhooks, S2S, Colas de Mensajes · Auth y Seguridad: Keycloak, SSO, JWT, HTTP Interceptors, Route Guards · Testing y Calidad: Jest, Cypress, Playwright, Unit Testing, E2E Testing, ESLint, Prettier, Husky, Code Review · DevOps y Herramientas: Git, GitHub, GitLab, Jenkins, Docker, Nginx, DigitalOcean, CI/CD · Metodologías: Agile, Scrum, Clean Architecture · Herramientas de IA: Cursor (Agents), Claude, ChatGPT/GPT, Ingeniería de Prompt · Soft Skills: Comunicación, Trabajo en equipo, Gestión de stakeholders",
+    "SKILLS_LINE": "Front-End: Angular (14+, hasta v20), AngularJS, TypeScript, JavaScript (ES6+), RxJS, Signals, Standalone Components, Lazy Loading, HTML5, CSS3, SCSS, Angular Material, Diseño Responsivo · Back-End e Integraciones: Node.js, Java, Spring Boot, REST APIs, SQL, ClickHouse, Webhooks, S2S, Colas de Mensajes · Auth y Seguridad: Keycloak, SSO, JWT, HTTP Interceptors, Route Guards · Testing y Calidad: Jest, Cypress, Playwright, Unit Testing, E2E Testing, ESLint, Prettier, Husky, Code Review · DevOps y Herramientas: Git, GitHub, GitLab, Jenkins, Docker, DigitalOcean, CI/CD · Metodologías: Agile, Scrum, Clean Architecture · Herramientas de IA: Cursor (Agents), Claude, ChatGPT/GPT, Ingeniería de Prompt · Soft Skills: Comunicación, Trabajo en equipo, Gestión de stakeholders",
     "GOAL_LABEL": "Objetivo",
     "GOAL": "Unirme a un equipo global, remoto (o remote-first), como <strong>Senior Angular Frontend Engineer / Frontend Techlead</strong> y seguir entregando productos escalables de alto impacto.",
     "KEY_ACHIEVEMENTS": "Logros Clave",
@@ -69,7 +69,7 @@
     "AVAILABILITY": {
       "AVAILABLE": "Disponible para Oportunidades",
       "BUSY": "Actualmente Ocupado",
-      "MESSAGE": "Abierto a roles senior de Angular, CLT o PJ, remoto en Brasil."
+      "MESSAGE": "Abierto a roles senior de Angular, CLT o PJ, remoto en Brasil o LATAM."
     },
     "PROJECTS": {
       "TITLE": "Mis Proyectos Públicos",
