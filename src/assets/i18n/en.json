@@ -9,9 +9,9 @@
   },
   "HERO": {
     "NAME": "Vitor Duarte Barbosa",
-    "TITLE": "Senior Angular Software Engineer",
+    "TITLE": "Senior Full-Stack Software Engineer",
     "LOCATION": "Campinas, São Paulo - Brazil",
-    "DESCRIPTION": "8+ years building scalable Angular applications for global companies",
+    "DESCRIPTION": "8+ years building scalable full-stack apps in Angular, TypeScript, Node.js, Java/Spring Boot and Postgres for global companies",
     "STATS": {
       "YEARS_EXPERIENCE": "Years Experience",
       "CLIENT_APPS": "Client Apps",
@@ -32,11 +32,11 @@
       "PROJECTS": "My Public Projects",
       "CONTACT": "Contact"
     },
-    "TITLE": "Senior Angular Software Engineer",
-    "SUMMARY": "With 8+ years of experience building fast, scalable, and user-focused web applications, I have collaborated with companies in Brazil, China, Argentina, and Colombia to turn complex ideas into robust digital products.",
+    "TITLE": "Senior Full-Stack Software Engineer",
+    "SUMMARY": "I'm a Senior Full-Stack Software Engineer with 8+ years of experience in Angular (modern versions & AngularJS) and TypeScript, and back-end work in Node.js, Java/Spring Boot and Postgres. I build scalable, responsive applications for companies in Brazil, China, Argentina, and Colombia, spanning the user interface through REST APIs and queues.",
     "BODY": {
-      "P1": "With <strong>8+ years</strong> of experience building fast, scalable, and user-focused web applications, I have collaborated with companies in <strong>Brazil, China, Argentina, and Colombia</strong> to turn complex ideas into robust digital products.",
-      "P2": "I currently work as a <strong>Senior Software Engineer</strong> on a B2B SaaS product in <strong>adtech</strong> (digital marketing) — <strong>Angular 17–20</strong>, TypeScript, dashboards, tracking, checkout flows, and integrations with ad networks and payment platforms (such as <strong>Stripe</strong>).",
+      "P1": "I'm a <strong>Senior Full-Stack Software Engineer</strong> with <strong>8+ years</strong> of experience in <strong>Angular</strong> (modern versions & AngularJS) and <strong>TypeScript</strong>, and back-end work in <strong>Node.js</strong>, <strong>Java/Spring Boot</strong> and <strong>Postgres</strong>. I build scalable, responsive applications for companies in <strong>Brazil, China, Argentina, and Colombia</strong>, spanning the user interface through REST APIs and queues.",
+      "P2": "I currently work as a <strong>Senior Software Engineer</strong> on a B2B SaaS product in <strong>adtech</strong> (digital marketing) — <strong>Angular 17–20</strong>, TypeScript, <strong>Node.js</strong>, <strong>Postgres</strong>, dashboards, tracking, checkout flows, and integrations with ad networks and payment platforms (such as <strong>Stripe</strong>).",
       "P3": "At my current role, I migrated a production Angular app from <strong>v17 to v20</strong> (standalone, OnPush, i18n), shipped client-facing admin, financial and sales dashboards, conversion and tracking pixels, SSO, and S2S/CAPI integrations (such as Google, Meta, TikTok), and closed <strong>200+ sprint and support tickets</strong> from the UI down to APIs and queues.",
       "P4": "At <strong>QIMA</strong>, I was a key contributor to AngularJS legacy and modern Angular apps, building scalable solutions and integrating APIs aligned to real business operations. I regularly presented features to executive directors, contributed to QIMA’s core component library, and also used AI tools with <strong>Java/Spring Boot</strong> back-end services.",
       "P5": "At <strong>Hausz</strong>, I single-handedly designed and developed a complete freight integration Angular platform handling <strong>5,000+ shipments per month</strong>, from requirements gathering to responsive design, API integration for rate calculation and tracking, and performance optimization that cut load times by <strong>40%</strong>, using the framework's best approaches.",
@@ -44,9 +44,9 @@
       "P7": "I use <strong>AI-assisted development</strong> daily (<strong>Cursor Agents</strong>, <strong>Claude</strong>, <strong>GPT</strong>) to speed up implementation, refactoring and code review, always keeping human review and code quality in the loop."
     },
     "SKILLS_LABEL": "Key Skills",
-    "SKILLS_LINE": "Front-End: Angular (14+, up to v20), AngularJS, TypeScript, JavaScript (ES6+), RxJS, Signals, Standalone Components, Lazy Loading, HTML5, CSS3, SCSS, Angular Material, Responsive Design · Back-End & Integrations: Node.js, Java, Spring Boot, REST APIs, SQL, ClickHouse, Webhooks, S2S, Message Queues · Auth & Security: Keycloak, SSO, JWT, HTTP Interceptors, Route Guards · Testing & Quality: Jest, Cypress, Playwright, Unit Testing, E2E Testing, ESLint, Prettier, Husky, Code Review · DevOps & Tools: Git, GitHub, GitLab, Jenkins, Docker, DigitalOcean, CI/CD · Methodologies: Agile, Scrum, Clean Architecture · AI Tools: Cursor (Agents), Claude, ChatGPT/GPT, Prompt Engineering · Soft Skills: Communication, Teamwork, Stakeholder Management",
+    "SKILLS_LINE": "Front-End: Angular (14+, up to v20), AngularJS, TypeScript, JavaScript (ES6+), RxJS, Signals, Standalone Components, Lazy Loading, HTML5, CSS3, SCSS, Angular Material, Responsive Design · Back-End & Integrations: Node.js, Java, Spring Boot, REST APIs, Postgres, ClickHouse, Webhooks, Message Queues · Auth & Security: Keycloak, JWT, HTTP Interceptors, Route Guards · Testing & Quality: Jest, Cypress, Playwright, Unit Testing, E2E Testing, ESLint, Prettier, Husky, Code Review · DevOps & Tools: Git, GitHub, GitLab, Jenkins, Docker, DigitalOcean, CI/CD · Methodologies: Agile, Scrum, Clean Architecture · AI Tools: Cursor (Agents), Claude, ChatGPT/GPT, Prompt Engineering · Soft Skills: Communication, Teamwork, Stakeholder Management",
     "GOAL_LABEL": "Goal",
-    "GOAL": "Join a global, remote (or remote-first) team as a <strong>Senior Angular Frontend Engineer / Frontend Techlead</strong> and keep delivering scalable, high-impact products.",
+    "GOAL": "Join a global, remote (or remote-first) team as a <strong>Senior Full-Stack Software Engineer</strong> and keep delivering scalable, high-impact products.",
     "KEY_ACHIEVEMENTS": "Key Achievements",
     "ACHIEVEMENTS": {
       "ENHANCED_CODE_EFFICIENCY": {
@@ -69,7 +69,7 @@
     "AVAILABILITY": {
       "AVAILABLE": "Available for Opportunities",
       "BUSY": "Currently Busy",
-      "MESSAGE": "Open to senior Angular roles, CLT or PJ, remote Brazil or LATAM."
+      "MESSAGE": "Open to senior full-stack roles, CLT or PJ, remote Brazil or LATAM."
     },
     "PROJECTS": {
       "TITLE": "My Public Projects",
@@ -121,7 +121,8 @@
           "Built ad-network and checkout integrations (such as Google, Meta and TikTok) plus payment platforms (such as Stripe), including S2S webhooks, CAPI events and conversion attribution.",
           "Worked on the product clients actually use day to day: Hub SSO, admin, financial and sales dashboards, conversion and tracking pixels, ads manager and plan-based limits.",
           "Closed 200+ sprint and support tickets on timezone, currency, conversions and client-facing bugs, from the UI down to the APIs and queues.",
-          "Used LLMs (Claude, GPT) and Cursor Agents mainly to deliver and integrate features with the Node.js back-end (APIs and queues), reviewing every change before merge."
+          "Used LLMs (Claude, GPT) and Cursor Agents mainly to deliver and integrate features with the Node.js back-end (APIs and queues), reviewing every change before merge.",
+          "Day-to-day Postgres: schema design, writing queries, inserting and updating data, and maintaining migrations, always aligned with each project's needs."
         ]
       },
       "AHOY": {
@@ -231,7 +232,7 @@
   },
   "WORK": {
     "TITLE": "Selected work",
-    "INTRO": "The freight platform I built alone. The senior Angular roles that followed are in the timeline below.",
+    "INTRO": "The freight platform I built alone. The full-stack roles that followed, with Angular and TypeScript on the front end and Node.js, Java/Spring Boot and Postgres on the back end, are in the timeline below.",
     "FEATURED_KICKER": "The work I’m proud of",
     "FEATURED_STAT": "5,000+",
     "FEATURED_STAT_LABEL": "shipments a month",

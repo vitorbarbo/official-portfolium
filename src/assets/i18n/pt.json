@@ -9,9 +9,9 @@
   },
   "HERO": {
     "NAME": "Vitor Duarte Barbosa",
-    "TITLE": "Engenheiro de Software Angular Sênior",
+    "TITLE": "Engenheiro de Software Full Stack Sênior",
     "LOCATION": "Campinas, São Paulo - Brasil",
-    "DESCRIPTION": "8+ anos construindo aplicações Angular escaláveis para empresas globais",
+    "DESCRIPTION": "8+ anos construindo aplicações full stack escaláveis em Angular, TypeScript, Node.js, Java/Spring Boot e Postgres para empresas globais",
     "STATS": {
       "YEARS_EXPERIENCE": "Anos de Experiência",
       "CLIENT_APPS": "Apps de clientes",
@@ -32,11 +32,11 @@
       "PROJECTS": "Meus Projetos Públicos",
       "CONTACT": "Contato"
     },
-    "TITLE": "Engenheiro de Software Angular Sênior",
-    "SUMMARY": "Com 8+ anos de experiência construindo aplicações web rápidas, escaláveis e centradas no usuário, colaborei com empresas no Brasil, China, Argentina e Colômbia para transformar ideias complexas em produtos digitais robustos.",
+    "TITLE": "Engenheiro de Software Full Stack Sênior",
+    "SUMMARY": "Sou Engenheiro de Software Full Stack Sênior com 8+ anos de experiência em Angular (versões modernas e AngularJS) e TypeScript, e trabalho de back-end em Node.js, Java/Spring Boot e Postgres. Construo aplicações escaláveis e responsivas para empresas no Brasil, China, Argentina e Colômbia, da interface às APIs REST e filas.",
     "BODY": {
-      "P1": "Com <strong>8+ anos</strong> de experiência construindo aplicações web rápidas, escaláveis e centradas no usuário, colaborei com empresas no <strong>Brasil, China, Argentina e Colômbia</strong> para transformar ideias complexas em produtos digitais robustos.",
-      "P2": "Atualmente atuo como <strong>Senior Software Engineer</strong> em um produto SaaS B2B de <strong>adtech</strong> (marketing digital) — <strong>Angular 17–20</strong>, TypeScript, dashboards, tracking, fluxos de checkout e integrações com redes de anúncios e plataformas de pagamento (como <strong>Stripe</strong>).",
+      "P1": "Sou <strong>Engenheiro de Software Full Stack Sênior</strong> com <strong>8+ anos</strong> de experiência em <strong>Angular</strong> (versões modernas e AngularJS) e <strong>TypeScript</strong>, e trabalho de back-end em <strong>Node.js</strong>, <strong>Java/Spring Boot</strong> e <strong>Postgres</strong>. Construo aplicações escaláveis e responsivas para empresas no <strong>Brasil, China, Argentina e Colômbia</strong>, da interface às APIs REST e filas.",
+      "P2": "Atualmente atuo como <strong>Senior Software Engineer</strong> em um produto SaaS B2B de <strong>adtech</strong> (marketing digital) — <strong>Angular 17–20</strong>, TypeScript, <strong>Node.js</strong>, <strong>Postgres</strong>, dashboards, tracking, fluxos de checkout e integrações com redes de anúncios e plataformas de pagamento (como <strong>Stripe</strong>).",
       "P3": "Na função atual, migrei um app Angular em produção de <strong>v17 para v20</strong> (standalone, OnPush, i18n), entreguei dashboards admin, financeiro e comercial usados pelos clientes, pixels de conversão e tracking, SSO e integrações S2S/CAPI (como Google, Meta e TikTok), e fechei <strong>200+ tickets</strong> de sprint e suporte da UI até as APIs e filas.",
       "P4": "Na <strong>QIMA</strong>, fui contribuidor-chave em apps AngularJS legado e Angular moderno, construindo soluções escaláveis e integrando APIs alinhadas à operação real do negócio. Apresentei features a diretores executivos, contribui para a biblioteca de componentes da QIMA e também usei ferramentas de IA com serviços <strong>Java (Spring Boot)</strong>.",
       "P5": "Na <strong>Hausz</strong>, projetei e desenvolvi sozinho uma plataforma Angular completa de integração de fretes com <strong>5.000+ envios por mês</strong>, do levantamento de requisitos ao design responsivo, integração de APIs para cálculo de frete e tracking, e otimização de performance que reduziu o tempo de carga em <strong>40%</strong>, usando as melhores práticas do framework.",
@@ -44,9 +44,9 @@
       "P7": "Uso <strong>desenvolvimento assistido por IA</strong> no dia a dia (<strong>Cursor Agents</strong>, <strong>Claude</strong>, <strong>GPT</strong>) para acelerar implementação, refatoração e code review, sempre com revisão humana e foco em qualidade."
     },
     "SKILLS_LABEL": "Principais habilidades",
-    "SKILLS_LINE": "Front-End: Angular (14+, até v20), AngularJS, TypeScript, JavaScript (ES6+), RxJS, Signals, Standalone Components, Lazy Loading, HTML5, CSS3, SCSS, Angular Material, Design Responsivo · Back-End e Integrações: Node.js, Java, Spring Boot, REST APIs, SQL, ClickHouse, Webhooks, S2S, Filas de Mensagens · Autenticação e Segurança: Keycloak, SSO, JWT, HTTP Interceptors, Route Guards · Testes e Qualidade: Jest, Cypress, Playwright, Testes Unitários, Testes E2E, ESLint, Prettier, Husky, Code Review · DevOps e Ferramentas: Git, GitHub, GitLab, Jenkins, Docker, DigitalOcean, CI/CD · Metodologias: Agile, Scrum, Clean Architecture · Ferramentas de IA: Cursor (Agents), Claude, ChatGPT/GPT, Engenharia de Prompt · Soft Skills: Comunicação, Trabalho em equipe, Gestão de stakeholders",
+    "SKILLS_LINE": "Front-End: Angular (14+, até v20), AngularJS, TypeScript, JavaScript (ES6+), RxJS, Signals, Standalone Components, Lazy Loading, HTML5, CSS3, SCSS, Angular Material, Design Responsivo · Back-End e Integrações: Node.js, Java, Spring Boot, REST APIs, Postgres, ClickHouse, Webhooks, Filas de Mensagens · Autenticação e Segurança: Keycloak, JWT, HTTP Interceptors, Route Guards · Testes e Qualidade: Jest, Cypress, Playwright, Testes Unitários, Testes E2E, ESLint, Prettier, Husky, Code Review · DevOps e Ferramentas: Git, GitHub, GitLab, Jenkins, Docker, DigitalOcean, CI/CD · Metodologias: Agile, Scrum, Clean Architecture · Ferramentas de IA: Cursor (Agents), Claude, ChatGPT/GPT, Engenharia de Prompt · Soft Skills: Comunicação, Trabalho em equipe, Gestão de stakeholders",
     "GOAL_LABEL": "Objetivo",
-    "GOAL": "Ingressar em um time global, remoto (ou remote-first), como <strong>Senior Angular Frontend Engineer / Frontend Techlead</strong> e continuar entregando produtos escaláveis de alto impacto.",
+    "GOAL": "Ingressar em um time global, remoto (ou remote-first), como <strong>Engenheiro de Software Full Stack Sênior</strong> e continuar entregando produtos escaláveis de alto impacto.",
     "KEY_ACHIEVEMENTS": "Principais Conquistas",
     "ACHIEVEMENTS": {
       "ENHANCED_CODE_EFFICIENCY": {
@@ -69,7 +69,7 @@
     "AVAILABILITY": {
       "AVAILABLE": "Disponível para Oportunidades",
       "BUSY": "Atualmente Ocupado",
-      "MESSAGE": "Aberto a vagas sênior de Angular, CLT ou PJ, remoto no Brasil ou LATAM."
+      "MESSAGE": "Aberto a vagas sênior full stack, CLT ou PJ, remoto no Brasil ou LATAM."
     },
     "PROJECTS": {
       "TITLE": "Meus Projetos Públicos",
@@ -121,7 +121,8 @@
           "Construí integrações de redes de anúncios e checkout (como Google, Meta e TikTok) e plataformas de pagamento (como Stripe), incluindo webhooks S2S, eventos CAPI e atribuição de conversão.",
           "Trabalhei no produto que os clientes usam no dia a dia: Hub SSO, admin, dashboards financeiro e de vendas, pixels de conversão e tracking, gerenciador de anúncios e limites por plano.",
           "Fechei 200+ tickets de sprint e suporte sobre fuso horário, moeda, conversões e bugs visíveis ao cliente, da UI até as APIs e filas.",
-          "Usei LLMs (Claude, GPT) e Cursor Agents principalmente para entregar e integrar features com o back-end em Node.js (APIs e filas), revisando cada mudança antes do merge."
+          "Usei LLMs (Claude, GPT) e Cursor Agents principalmente para entregar e integrar features com o back-end em Node.js (APIs e filas), revisando cada mudança antes do merge.",
+          "Postgres no dia a dia: modelagem de schemas, escrita de consultas, inserções e atualizações de dados, e manutenção de migrations, sempre alinhado à demanda de cada projeto."
         ]
       },
       "AHOY": {
@@ -231,7 +232,7 @@
   },
   "WORK": {
     "TITLE": "Trabalho selecionado",
-    "INTRO": "A plataforma de frete que eu construí sozinho. Os papéis sênior em Angular que vieram depois estão na linha do tempo abaixo.",
+    "INTRO": "A plataforma de frete que eu construí sozinho. As vagas full stack que vieram depois, com Angular e TypeScript no front-end e Node.js, Java/Spring Boot e Postgres no back-end, estão na linha do tempo abaixo.",
     "FEATURED_KICKER": "O trabalho de que tenho orgulho",
     "FEATURED_STAT": "5.000+",
     "FEATURED_STAT_LABEL": "envios por mês",

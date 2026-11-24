@@ -31,6 +31,7 @@ export class ExperienceComponent implements OnInit {
         'Signals',
         'Node.js',
         'SQL',
+        'Postgres',
         'ClickHouse',
         'Stripe',
         'Jest',
