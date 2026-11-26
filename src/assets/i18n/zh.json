@@ -117,6 +117,8 @@
         "PERIOD": "2026年5月 - 至今",
         "LOCATION": "坎皮纳斯, 圣保罗 - 巴西 · 远程",
         "ACHIEVEMENTS": [
+          "作为技术负责人，带领四名开发人员完成广告网络的 tracking 与标签集成，从方案设计到生产交付。",
+          "制定 Angular 前端的架构与代码规范，并主持团队的 code review。",
           "将 Angular 应用从 v17 迁移到 v20，并提升 tracker、API、队列和 tracking script 技术栈一致性（standalone、OnPush、i18n、Husky）。",
           "构建广告网络和结账集成（如 Google、Meta 和 TikTok）以及支付平台（如 Stripe），包括 S2S webhook、CAPI 事件和转化归因。",
           "参与客户日常使用的产品：Hub SSO、后台、财务与销售仪表板、转化/tracking 像素、广告管理器和按套餐限制。",
@@ -130,10 +132,10 @@
         "PERIOD": "2026年1月 - 2026年5月",
         "LOCATION": "巴西 · 远程",
         "ACHIEVEMENTS": [
-          "从零架构并主导开发客户门户（Angular 20、TypeScript、Material）。",
+          "在主项目中带领由三名开发人员组成的 squad，组织并规划 sprint 与任务分配。",
+          "从零架构并主导开发客户门户（Angular 20、TypeScript、Material），确定前端架构与性能方向，团队在交付中将其作为标准采用：standalone components、Signals、OnPush、懒加载路由与环境配置。",
           "集成 Keycloak SSO 与 JWT：guards、Bearer token 的 HTTP interceptor、基于角色的访问。",
           "以 standalone components 交付核心后台模块：CRUD、PDF/Excel 导出、可复用表格、筛选与组件、复杂响应式表单。",
-          "设计架构：standalone components、Signals、OnPush、懒加载路由、环境配置。",
           "建立规范：Docker、Nginx、Jest、ESLint/Prettier、Husky 及文档化指南。"
         ]
       },
@@ -142,10 +144,12 @@
         "PERIOD": "2023年3月 - 2025年12月",
         "LOCATION": "中国 · 远程",
         "ACHIEVEMENTS": [
+          "作为共同负责人，端到端主导两个主要项目的 Angular 前端。",
+          "作为技术团队与利益相关方之间的桥梁，定期向执行董事展示新功能，并将业务需求转化为可行的前端方案。",
+          "主持 Angular 的 code review，在团队中统一组件与最佳实践。",
           "在 AngularJS 遗留与现代 Angular 应用中担任核心贡献者，利用框架经验构建可扩展方案并交付关键功能。",
           "设计并改进组件架构，确保全球平台的可维护性与技术卓越。",
           "交付对齐真实业务运营的复杂 API 集成。",
-          "定期向执行董事直接展示多个全球应用的新功能，在高压环境中对齐技术策略与公司目标。",
           "参与 QIMA 核心组件库，创建并增强在多个全球项目中采用的可复用 Angular 组件。",
           "也使用 AI 工具与后端协作交付功能，并参与 Java/Spring Boot 服务相关工作。"
         ]

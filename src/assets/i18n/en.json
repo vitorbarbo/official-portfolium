@@ -117,6 +117,8 @@
         "PERIOD": "May 2026 - Present",
         "LOCATION": "Campinas, São Paulo - Brazil · Remote",
         "ACHIEVEMENTS": [
+          "Technically led a team of four developers on tracking and tag integrations with ad networks, from solution design through to production delivery.",
+          "Defined architecture and code standards on the Angular front-end and led the team's code reviews.",
           "Migrated the Angular app from v17 to v20 and brought some consistency to the stack (standalone, OnPush, i18n, Husky) across the tracker, APIs, queues and tracking script.",
           "Built ad-network and checkout integrations (such as Google, Meta and TikTok) plus payment platforms (such as Stripe), including S2S webhooks, CAPI events and conversion attribution.",
           "Worked on the product clients actually use day to day: Hub SSO, admin, financial and sales dashboards, conversion and tracking pixels, ads manager and plan-based limits.",
@@ -130,10 +132,10 @@
         "PERIOD": "Jan 2026 - May 2026",
         "LOCATION": "Brazil · Remote",
         "ACHIEVEMENTS": [
-          "Architected / lead-developed client portal from scratch (Angular 20, TypeScript, Material).",
+          "Led a squad of three developers on the main project, organizing and planning sprints and the distribution of tasks.",
+          "Architected and led development of the client portal from scratch (Angular 20, TypeScript, Material), defining the front-end architecture and performance direction that the team adopted and followed as the standard in deliveries: standalone components, Signals, OnPush, lazy-loaded routes and environment config.",
           "Integrated Keycloak SSO with JWT: guards, HTTP interceptor for Bearer tokens, role-based access.",
           "Delivered core admin modules as standalone components: CRUD, PDF/Excel export, reusable data tables, filters and components, complex reactive forms.",
-          "Designed architecture: standalone components, Signals, OnPush, lazy-loaded routes, environment config.",
           "Established standards: Docker, Nginx, Jest, ESLint/Prettier, Husky, documented guidelines."
         ]
       },
@@ -142,10 +144,12 @@
         "PERIOD": "Mar 2023 - Dec 2025",
         "LOCATION": "China · Remote",
         "ACHIEVEMENTS": [
+          "Co-led the Angular front-end end to end on the two main projects.",
+          "Served as the bridge between the technical team and stakeholders, regularly presenting new features to executive directors and translating business requirements into viable front-end solutions.",
+          "Led code reviews in Angular, standardizing components and best practices across the team.",
           "Key contributor to AngularJS legacy and modern Angular apps. Utilized framework expertise to build scalable solutions and deliver critical features.",
           "Designed and improved component architectures ensuring maintainability and technical excellence across global platforms.",
           "Delivered complex API integrations aligned to real business operations.",
-          "Regularly presented new features from multiple global applications directly to executive directors, driving alignment between technical strategy and corporate goals in high-stakes environments.",
           "Contributed to the development of QIMA’s core component library, creating and enhancing reusable Angular components adopted across multiple global projects.",
           "Also used AI tools to integrate and deliver features with the back-end, contributing to Java/Spring Boot services."
         ]

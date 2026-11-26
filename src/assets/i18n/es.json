@@ -117,6 +117,8 @@
         "PERIOD": "May 2026 - Actualidad",
         "LOCATION": "Campinas, São Paulo - Brasil · Remoto",
         "ACHIEVEMENTS": [
+          "Lideré técnicamente un equipo de cuatro desarrolladores en las integraciones de seguimiento y tags con redes de anuncios, desde el diseño de la solución hasta la entrega en producción.",
+          "Definí estándares de arquitectura y código en el front-end Angular y conduje los code reviews del equipo.",
           "Migré la app Angular de v17 a v20 y traje más consistencia al stack (standalone, OnPush, i18n, Husky) en el tracker, APIs, colas y script de tracking.",
           "Construí integraciones de redes de anuncios y checkout (como Google, Meta y TikTok) y plataformas de pago (como Stripe), incluyendo webhooks S2S, eventos CAPI y atribución de conversión.",
           "Trabajé en el producto que los clientes usan a diario: Hub SSO, admin, dashboards financiero y de ventas, pixels de conversión y tracking, gestor de anuncios y límites por plan.",
@@ -130,10 +132,10 @@
         "PERIOD": "Ene 2026 - May 2026",
         "LOCATION": "Brasil · Remoto",
         "ACHIEVEMENTS": [
-          "Arquitecté / lideré el desarrollo del portal de clientes desde cero (Angular 20, TypeScript, Material).",
+          "Lideré un squad de tres desarrolladores en el proyecto principal, organizando y planificando los sprints y la distribución de las tareas.",
+          "Arquitecté y lideré el desarrollo del portal de clientes desde cero (Angular 20, TypeScript, Material), definiendo la dirección de arquitectura y performance del front-end, que el equipo adoptó y siguió como estándar en las entregas: standalone components, Signals, OnPush, rutas lazy-loaded y config por entorno.",
           "Integré SSO Keycloak con JWT: guards, interceptor HTTP para Bearer tokens, acceso por roles.",
           "Entregué módulos de admin como standalone components: CRUD, exportación PDF/Excel, tablas reutilizables, filtros y componentes, formularios reactivos complejos.",
-          "Diseñé la arquitectura: standalone components, Signals, OnPush, rutas lazy-loaded, config por entorno.",
           "Establecí estándares: Docker, Nginx, Jest, ESLint/Prettier, Husky, guidelines documentadas."
         ]
       },
@@ -142,10 +144,12 @@
         "PERIOD": "Mar 2023 - Dic 2025",
         "LOCATION": "China · Remoto",
         "ACHIEVEMENTS": [
+          "Colideré el front-end Angular de punta a punta en los dos principales proyectos.",
+          "Fui el nexo entre el equipo técnico y los stakeholders, presentando regularmente nuevas features a directores ejecutivos y traduciendo requisitos de negocio en soluciones de front-end viables.",
+          "Conduje code reviews en Angular, estandarizando componentes y buenas prácticas en el equipo.",
           "Contribuidor clave en apps AngularJS legado y Angular moderno. Usé la expertise del framework para construir soluciones escalables y entregar features críticas.",
           "Diseñé y mejoré arquitecturas de componentes, garantizando mantenibilidad y excelencia técnica en plataformas globales.",
           "Entregué integraciones complejas de API alineadas a la operación real del negocio.",
-          "Presenté regularmente nuevas features de varias aplicaciones globales directamente a directores ejecutivos, alineando estrategia técnica y objetivos corporativos en entornos de alta presión.",
           "Contribuí a la biblioteca de componentes de QIMA, creando y mejorando componentes Angular reutilizables adoptados en varios proyectos globales.",
           "También usé herramientas de IA para integrar y entregar features con el back-end, contribuyendo en servicios Java (Spring Boot)."
         ]
